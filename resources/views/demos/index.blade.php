@@ -1,0 +1,1787 @@
+@extends('layout.layout2')
+
+@php
+    $headTitle='Home One';
+@endphp
+
+@section('content')
+
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+
+        <header class="main-header">
+            <nav class="main-menu">
+                <div class="main-menu__wrapper">
+                    <div class="main-menu__wrapper-inner">
+                        <div class="main-menu__left">
+                            <div class="main-menu__logo">
+                                <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/resources/logo-1.png') }}" alt=""></a>
+                            </div>
+                            <div class="main-menu__shape-1 float-bob-x">
+                                <img src="{{ asset('assets/images/shapes/main-menu-shape-1.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="main-menu__right">
+                            <div class="main-menu__right-top">
+                                <div class="main-menu__right-top-left">
+                                    <div class="main-menu__volunteers">
+                                        <div class="main-menu__volunteers-icon">
+                                            <img src="{{ asset('assets/images/icon/main-menu-heart-icon.png') }}" alt="">
+                                        </div>
+                                        <div class="main-menu__volunteers-text-box">
+                                            <p class="main-menu__volunteers-text"><a href="{{ route('becomeVolunteer') }}">Become
+                                                    a
+                                                    <span>volunteers</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-menu__right-top-right">
+                                    <div class="main-menu__right-top-address">
+                                        <ul class="list-unstyled main-menu__right-top-address-list">
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-phone-call"></span>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Helpline</p>
+                                                    <h5><a href="tel:9643743907">9643743907</a></h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-message"></span>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Send email</p>
+                                                    <h5><a href="mailto:globalpathfields@gmail.com">globalpathfields@gmail.com</a>
+                                                    </h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-location"></span>
+                                                </div>
+                                                <div class="content">
+                                                    <p>309,Princess Business Skyline, Vijay Nagar, Indore</p>
+                                                    <h5>Madhya Pradesh</h5>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="main-menu__right-top-social">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook"></i></a>
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-menu__right-bottom">
+                                <div class="main-menu__main-menu-box">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list">
+                                        <li class="megamenu current megamenu-clickable megamenu-clickable--toggler">
+                                            <a href="{{ route('index') }}">Home</a>
+                                            <ul>
+                                                <li>
+                                                    <div class="megamenu-popup">
+                                                        <a href="#" class="megamenu-clickable--close"><span class="icon-close"></span></a>
+                                                        
+                                                        <!-- /.megamenu-clickable--close -->
+                                                        <div class="megamenu-popup__content">
+                                                            <div class="demo-one">
+                                                                <div class="container">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-1.png') }}" alt="Home Page 01">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('index') }}" class="thm-btn">Multi Page </a>
+                                                                                        <a href="{{ route('indexOnePage') }}" class="thm-btn">One Page</a>
+                                                                                        <a href="{{ route('indexDark') }}" class="thm-btn">Dark Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('index') }}">Home Page 01</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-2.png') }}" alt="Home Page 02">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('index2') }}" class="thm-btn">Multi Page </a>
+                                                                                        <a href="{{ route('index2OnePage') }}" class="thm-btn">One
+                                                                                            Page</a>
+                                                                                        <a href="{{ route('index2Dark') }}" class="thm-btn">Dark Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('index2') }}">Home Page 02</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-3.png') }}" alt="Home page 03">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('index3') }}" class="thm-btn">Multi Page </a>
+                                                                                        <a href="{{ route('index3OnePage') }}" class="thm-btn">One
+                                                                                            Page</a>
+                                                                                        <a href="{{ route('index3Dark') }}" class="thm-btn">Dark Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('index3') }}">Home Page 03</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-4.png') }}" alt="Home page 04">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('index4') }}" class="thm-btn">Multi Page </a>
+                                                                                        <a href="{{ route('index4OnePage') }}" class="thm-btn">One
+                                                                                            Page</a>
+                                                                                        <a href="{{ route('index4Dark') }}" class="thm-btn">Dark Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('index4') }}">Home Page 04</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-5.png') }}" alt="Home page 05">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('index5') }}" class="thm-btn">Multi Page </a>
+                                                                                        <a href="{{ route('index5OnePage') }}" class="thm-btn">One
+                                                                                            Page</a>
+                                                                                        <a href="{{ route('index5Dark') }}" class="thm-btn">Dark Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('index5') }}">Home Page 05</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-6.png') }}" alt="Home Boxed">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="{{ route('indexBoxed') }}" class="thm-btn">View
+                                                                                            Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="{{ route('indexBoxed') }}">Home Boxed</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                        <div class="col-md-6 col-lg-4">
+                                                                            <div class="demo-one__card">
+                                                                                <div class="demo-one__image">
+                                                                                    <img width="370" height="431" src="{{ asset('assets/images/home-showcase/home-1-7.png') }}" alt="Home RTL">
+                                                                                    <div class="demo-one__btns">
+                                                                                        <a href="index-rtl#googtrans(en%7car)" class="thm-btn">View Page</a>
+                                                                                    </div><!-- /.demo-one__btns -->
+                                                                                </div><!-- /.demo-one__image -->
+                                                                                <div class="demo-one__content">
+                                                                                    <h3 class="demo-one__title">
+                                                                                        <a href="index-rtl#googtrans(en%7car)">Home RTL</a>
+                                                                                    </h3><!-- /.demo-one__title -->
+                                                                                </div><!-- /.demo-one__content -->
+                                                                            </div><!-- /.demo-one__card -->
+                                                                        </div><!-- /.col-md-6 -->
+                                                                    </div><!-- /.row -->
+                                                                </div><!-- /.container -->
+                                                            </div><!-- /.demos-one -->
+                                                        </div>
+                                                        <!-- /.megamenu-popup__content -->
+
+                                                    </div><!-- /.megamenu-popup -->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="{{ route('about') }}">About</a>
+                                            <!-- code 2 to be removed start -->
+                                            <!-- <ul>
+                                                <li><a href="{{ route('about') }}">About</a></li>
+                                                <li><a href="{{ route('volunteer') }}">Volunteer</a></li>
+                                                <li><a href="{{ route('becomeVolunteer') }}">Become volunteer</a></li>
+                                                <li><a href="{{ route('volunteerCarousel') }}">Volunteer carousel</a></li>
+                                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                                <li><a href="{{ route('galleryCarousel') }}">Gallery carousel</a></li>
+                                                <li><a href="{{ route('faq') }}">FAQs</a></li>
+                                                <li><a href="{{ route('errorPage') }}">404 Error</a></li>
+                                            </ul> -->
+                                            
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Focus Areas</a>
+                                            <ul>
+                                                <li><a href="{{ route('donation') }}">Donation</a></li>
+                                                <li><a href="{{ route('donationsList') }}">Donation list</a></li>
+                                                <li><a href="{{ route('donationCarousel') }}">Donation carousel</a></li>
+                                                <li><a href="{{ route('donationDetails') }}">Donation details</a></li>
+                                                <li><a href="{{ route('donateNow') }}">Donate Now</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Events</a>
+                                            <ul>
+                                                <li><a href="{{ route('events') }}">Events</a></li>
+                                                <li><a href="{{ route('eventsCarousel') }}">Events carousel</a></li>
+                                                <li><a href="{{ route('eventDetails') }}">Event details</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li class="dropdown">
+                                            <a href="#">Resources</a>
+                                            <ul>
+                                                <li><a href="{{ route('news') }}">News</a></li>
+                                                <li><a href="{{ route('newsCarousel') }}">News carousel</a></li>
+                                                <li><a href="{{ route('newsSidebar') }}">News right sidebar</a></li>
+                                                <li><a href="{{ route('newsSidebarLeft') }}">News left sidebar</a></li>
+                                                <li><a href="{{ route('newsDetails') }}">News details</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#">News Grid</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="#">No Sidebar</a></li>
+                                                        <li><a href="#">Left Sidebar</a></li>
+                                                        <li><a href="#">Right Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                        <li class="dropdown">
+                                            <a href="#">Partners</a>
+                                            <ul>
+                                                <li><a href="{{ route('products') }}">Shop</a></li>
+                                                <li><a href="{{ route('productDetails') }}">Product details</a></li>
+                                                <li><a href="{{ route('cart') }}">Cart</a></li>
+                                                <li><a href="{{ route('checkout') }}">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('contact') }}">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-menu__main-menu-content-box">
+                                    <div class="main-menu__search-cat-btn-box">
+                                        <div class="main-menu__search-box">
+                                            <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                        </div>
+                                        <div class="main-menu__cat-box">
+                                            <a href="{{ route('cart') }}" class="main-menu__cart icon-shopping-cart"></a>
+                                        </div>
+                                        <div class="main-menu__btn-box">
+                                            <a href="{{ route('donateNow') }}" class="main-menu__btn"> <span class="fa fa-heart"></span> Donate
+                                                now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <x-stickyHeader/>
+        <!-- /.stricky-header -->
+
+        <!--Main Slider Start-->
+        <section class="main-slider-two clearfix">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-1.jpg') }}')"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="main-slider-two-shape-1">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                        </div>
+                        <div class="main-slider-two-shape-2">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-two__content">
+                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                        <div class="main-slider-two__btn-box">
+                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-2.jpg') }}')"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="main-slider-two-shape-1">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                        </div>
+                        <div class="main-slider-two-shape-2">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-two__content">
+                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                        <div class="main-slider-two__btn-box">
+                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-3.jpg') }}')"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="main-slider-two-shape-1">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                        </div>
+                        <div class="main-slider-two-shape-2">
+                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider-two__content">
+                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                        <div class="main-slider-two__btn-box">
+                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="main-slider-two__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="icon-left-arrow"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="icon-right-arrow"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Main Slider End-->
+
+        <!--About One Start-->
+        <section class="about-one">
+            <div class="about-one__shape-box-1">
+                <div class="about-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/about-one-shape-1.png') }}')"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-one__left">
+                            <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                <div class="about-one__img">
+                                    <img src="{{ asset('assets/images/resources/about-one-img-1.jpg') }}" alt="">
+                                </div>
+                                <div class="about-one__img-border"></div>
+                                <div class="about-one__curved-circle-box">
+                                    <div class="curved-circle">
+                                        <span class="curved-circle--item">
+                                            Global Pathfields
+                                        </span>
+                                    </div><!-- /.curved-circle -->
+                                    <div class="about-one__curved-circle-icon">
+                                        <img src="{{ asset('assets/images/icon/curved-circle-icon.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <div class="about-one__shape-2 zoom-fade">
+                                    <img src="{{ asset('assets/images/shapes/about-one-shape-2.png') }}" alt="">
+                                </div>
+                                <div class="about-one__shape-3 float-bob-y">
+                                    <img src="{{ asset('assets/images/shapes/about-one-shape-3.png') }}" alt="">
+                                </div>
+                                <div class="about-one__shape-4 zoominout">
+                                    <img src="{{ asset('assets/images/shapes/about-one-shape-4.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about-one__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Welcome to globalpathfields</span>
+                                <h2 class="section-title__title">Helping each other can make world better</h2>
+                            </div>
+                            <p class="about-one__text">We are a rapidly growing non-profit committed to inclusive development for a more equitable, sustainable world. We support vulnerable groups through innovative solutions, policy analysis, capacity building, and program implementation. Partnering with the UN, government, private sector, and civil society, we tackle development challenges and improve service delivery in India. </p>
+                            <div class="about-one__fund">
+                                <p class="about-one__fund-text">Helped fund <span>20+</span> Projects in
+                                    <span>All Over India</span>, Benefiting over <br> <span>5.2</span> Million people.
+                                </p>
+                            </div>
+                            <ul class="list-unstyled about-one__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-volunteer"></span>
+                                    </div>
+                                    <div class="text">
+                                        <h5><a href="{{ route('becomeVolunteer') }}">Join our team</a></h5>
+                                        <p>Be part of our mission to drive meaningful change!</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-solidarity"></span>
+                                    </div>
+                                    <div class="text">
+                                        <h5><a href="{{ route('donateNow') }}">Start donating</a></h5>
+                                        <p>Empower lives with your generosity—every contribution counts!</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="{{ route('about') }}" class="thm-btn about-one__btn">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About One End-->
+
+        <!--Focus Areas Start-->
+      <!--Feature Three Start-->
+      <section class="feature-three">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">What We Do?</span>
+                    <h2 class="section-title__title">Our Areas of Impact</h2>
+                </div>
+            <div class="row">
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-1.png') }}')">
+                            </div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Child Rights</h3>
+                            </div>
+                            <div class="feature-three__btn">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')"></div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Skill Development</h3>
+                            </div>
+                            <div class="feature-three__btn feature-three__btn-two">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')"></div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Public Health</h3>
+                            </div>
+                            <div class="feature-three__btn feature-three__btn-two">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-1.png') }}')"></div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Environment</h3>
+                            </div>
+                            <div class="feature-three__btn">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')"></div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Monitoring</h3>
+                            </div>
+                            <div class="feature-three__btn feature-three__btn-two">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+                <!-- <div class="col-xl-4 col-lg-12">
+                        <div class="feature-three__single">
+                            <div class="feature-three__img"
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')">
+                            </div>
+                            <div class="feature-three__title-box">
+                                <h3 class="feature-three__title">Vision</h3>
+                            </div>
+                            <div class="feature-three__btn feature-three__btn-two">
+                                <a href="{{ route('about') }}">See more</a>
+                            </div>
+                        </div>
+                    </div> -->
+                
+            
+        
+        <!--Feature Three End-->
+        <!--Focus Areas End-->
+
+        <!--Causes One Start-->
+        <!-- <section class="causes-one">
+            <div class="container"> -->
+                
+                <!--Donation Caraousel Start-->
+        <section class="donation-carousel-page">
+            <div class="container">
+            <div class="section-title text-center">
+                    <span class="section-title__tagline">Help & donate us now</span>
+                    <h2 class="section-title__title">Find the popular cause <br> and donate for them</h2>
+                </div>
+                <div class="donation-carousel thm-owl__carousel owl-theme owl-carousel carousel-dot-style"
+                    data-owl-options='{
+                    "items": 3,
+                    "margin": 30,
+                    "smartSpeed": 700,
+                    "loop":true,
+                    "autoplay": 6000,
+                    "nav":false,
+                    "dots":true,
+                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                    "responsive":{
+                        "0":{
+                            "items":1
+                        },
+                        "768":{
+                            "items":2
+                        },
+                        "992":{
+                            "items": 3
+                        }
+                    }
+                }'>
+                    
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Education</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Empowering Children Through Education</a>
+                                </h3>
+                                <p class="causes-one__text">Every child deserves access to quality education. Your support helps provide learning resources, and scholarships paving the way for a brighter future.</p>
+                                <div class="causes-one__progress">
+                                    <div class="causes-one__progress-shape"
+                                        style="background-image:url('{{ asset('assets/images/shapes/causes-one-progress-shape-1.png') }}')">
+                                    </div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="36%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                    <div class="causes-one__goals">
+                                        <p><span>$25,270</span> Raised</p>
+                                        <p><span>$30,000</span> Goal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Health</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Healthcare for a Healthier Tomorrow</a>
+                                </h3>
+                                <p class="causes-one__text">We provide medical aid, health awareness programs, and essential healthcare services to underprivileged communities, ensuring they lead healthier lives.</p>
+                                <div class="causes-one__progress">
+                                    <div class="causes-one__progress-shape"
+                                        style="background-image:url('{{ asset('assets/images/shapes/causes-one-progress-shape-1.png') }}')">
+                                    </div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="36%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                    <div class="causes-one__goals">
+                                        <p><span>$25,270</span> Raised</p>
+                                        <p><span>$30,000</span> Goal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Food</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Ending Hunger, One Meal at a Time</a>
+                                </h3>
+                                <p class="causes-one__text">Millions go to bed hungry every night. We strive to provide nutritious meals to children and families in need, fighting hunger and malnutrition together.</p>
+                                <div class="causes-one__progress">
+                                    <div class="causes-one__progress-shape"
+                                        style="background-image:url('{{ asset('assets/images/shapes/causes-one-progress-shape-1.png') }}')">
+                                    </div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="36%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                    <div class="causes-one__goals">
+                                        <p><span>$25,270</span> Raised</p>
+                                        <p><span>$30,000</span> Goal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-4.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Environment</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Protecting Our Planet for Future Generations</a>
+                                </h3>
+                                <p class="causes-one__text">Through tree plantation drives, waste management initiatives, and awareness campaigns, we work towards a cleaner and greener environment.</p>
+                                <div class="causes-one__progress">
+                                    <div class="causes-one__progress-shape"
+                                        style="background-image:url('{{ asset('assets/images/shapes/causes-one-progress-shape-1.png') }}')">
+                                    </div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="36%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                    <div class="causes-one__goals">
+                                        <p><span>$25,270</span> Raised</p>
+                                        <p><span>$30,000</span> Goal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-5.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Sustainabilty</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Building a Sustainable Future</a>
+                                </h3>
+                                <p class="causes-one__text">Our programs promote renewable energy, eco-friendly solutions, and sustainable practices to create lasting positive change for communities and the planet.</p>
+                                <div class="causes-one__progress">
+                                    <div class="causes-one__progress-shape"
+                                        style="background-image:url('{{ asset('assets/images/shapes/causes-one-progress-shape-1.png') }}')">
+                                    </div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="36%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                    <div class="causes-one__goals">
+                                        <p><span>$25,270</span> Raised</p>
+                                        <p><span>$30,000</span> Goal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Donation Caraousel End-->
+                <!-- </div> -->
+            <!-- </div>
+        </section> -->
+        <!--Causes One End-->
+
+        <!--Become Volunteer One Start-->
+        <x-becomeVolunteer/>
+        <!--Become Volunteer One End-->
+
+        <!--Events One Start-->
+        <section class="events-one">
+            <div class="events-one-shape-1" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="events-one__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Upcoming events</span>
+                                <h2 class="section-title__title">Join Our Latest Upcoming Events</h2>
+                            </div>
+                            <p class="events-one__text-1">Stay updated with our upcoming events focusing on child rights, education, skills development, employment, public health, and sustainability.</p>
+                            <a href="{{ route('eventDetails') }}" class="thm-btn events-one__btn">Discover More</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="events-one__right">
+                            <div class="events-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                                "loop": true,
+                                "autoplay": true,
+                                "margin": 20,
+                                "nav": true,
+                                "dots": false,
+                                "smartSpeed": 500,
+                                "autoplayTimeout": 10000,
+                                "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                                "responsive": {
+                                    "0": {
+                                        "items": 1
+                                    },
+                                    "768": {
+                                        "items": 2
+                                    },
+                                    "992": {
+                                        "items": 2
+                                    },
+                                    "1200": {
+                                        "items": 3
+                                    }
+                                }
+                            }'>
+                                <div class="item">
+                                    <!--Events One Single Start-->
+                                    <div class="events-one__single">
+                                        <div class="events-one__img">
+                                            <img src="{{ asset('assets/images/events/events-1-1.jpg') }}" alt="">
+                                            <div class="events-one__date">
+                                                <p>15 March, 2025</p>
+                                            </div>
+                                            <div class="events-one__content">
+                                                <ul class="list-unstyled events-one__meta">
+                                                    <li><i class="fas fa-clock"></i>8:00pm</li>
+                                                    <li><i class="fas fa-map-marker-alt"></i>Mumbai, Maharashtra</li>
+                                                </ul>
+                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Empowering Youth Through Skills Development</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Events One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Events One Single Start-->
+                                    <div class="events-one__single">
+                                        <div class="events-one__img">
+                                            <img src="{{ asset('assets/images/events/events-1-2.jpg') }}" alt="">
+                                            <div class="events-one__date">
+                                                <p>28 April, 2025</p>
+                                            </div>
+                                            <div class="events-one__content">
+                                                <ul class="list-unstyled events-one__meta">
+                                                    <li><i class="fas fa-clock"></i>8:00pm</li>
+                                                    <li><i class="fas fa-map-marker-alt"></i>Bangalore, Karnataka</li>
+                                                </ul>
+                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Sustainable Living & Environmental Awareness</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Events One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Events One Single Start-->
+                                    <div class="events-one__single">
+                                        <div class="events-one__img">
+                                            <img src="{{ asset('assets/images/events/events-1-3.jpg') }}" alt="">
+                                            <div class="events-one__date">
+                                                <p>10 June, 2025</p>
+                                            </div>
+                                            <div class="events-one__content">
+                                                <ul class="list-unstyled events-one__meta">
+                                                    <li><i class="fas fa-clock"></i>8:00pm</li>
+                                                    <li><i class="fas fa-map-marker-alt"></i>Delhi</li>
+                                                </ul>
+                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Child Rights & Education for a Better Future</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Events One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Events One Single Start-->
+                                    <div class="events-one__single">
+                                        <div class="events-one__img">
+                                            <img src="{{ asset('assets/images/events/events-1-1.jpg') }}" alt="">
+                                            <div class="events-one__date">
+                                                <p>20 July, 2025</p>
+                                            </div>
+                                            <div class="events-one__content">
+                                                <ul class="list-unstyled events-one__meta">
+                                                    <li><i class="fas fa-clock"></i>8:00pm</li>
+                                                    <li><i class="fas fa-map-marker-alt"></i>Kolkata, West Bengal</li>
+                                                </ul>
+                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Inclusive Employment for Economic Growth</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Events One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Events One Single Start-->
+                                    <div class="events-one__single">
+                                        <div class="events-one__img">
+                                            <img src="{{ asset('assets/images/events/events-1-2.jpg') }}" alt="">
+                                            <div class="events-one__date">
+                                                <p>5 September, 2025</p>
+                                            </div>
+                                            <div class="events-one__content">
+                                                <ul class="list-unstyled events-one__meta">
+                                                    <li><i class="fas fa-clock"></i>8:00pm</li>
+                                                    <li><i class="fas fa-map-marker-alt"></i>Chennai, Tamil Nadu</li>
+                                                </ul>
+                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Public Health & Nutrition Awareness</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Events One Single End-->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Events One End-->
+
+        <!--Feature One Start-->
+        <section class="feature-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6  wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="feature-one__single">
+                            <div class="feature-one__single-bg" style="background-image:url('{{ asset('assets/images/shapes/feature-one-shape-1.png') }}')"></div>
+                            <div class="feature-one__top">
+                                <div class="feature-one__top-inner">
+                                    <div class="feature-one__top-icon">
+                                        <span class="icon-help"></span>
+                                    </div>
+                                    <div class="feature-one__top-title-box">
+                                        <h3 class="feature-one__top-title"><a href="{{ route('becomeVolunteer') }}">Join us &
+                                                become <br> a
+                                                volunteer</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="feature-one__text">Make a difference by volunteering with us. Contribute your time and skills to empower 
+                            communities and transform lives.</p>
+                            <ul class="list-unstyled feature-one__point">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Support underprivileged children and families.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Participate in skill-building and community projects.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Be part of meaningful social change.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="{{ route('becomeVolunteer') }}" class="thm-btn feature-one__btn">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6  wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="feature-one__single feature-one__single--two">
+                            <div class="feature-one__single-bg" style="background-image:url('{{ asset('assets/images/shapes/feature-one-shape-1.png') }}')"></div>
+                            <div class="feature-one__top">
+                                <div class="feature-one__top-inner">
+                                    <div class="feature-one__top-icon feature-one__top-icon--two">
+                                        <span class="icon-gift-box"></span>
+                                    </div>
+                                    <div class="feature-one__top-title-box">
+                                        <h3 class="feature-one__top-title"><a href="{{ route('about') }}">Send
+                                                a gift for <br>
+                                                childrens</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="feature-one__text">Brighten a child's life by sending a meaningful gift. Your generosity provides 
+                            essential supplies, education, and hope for a better future.</p>
+                            <ul class="list-unstyled feature-one__point">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Provide school supplies and learning materials.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Support health and nutrition programs.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fa fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Give joy through toys, books, and clothing.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="{{ route('about') }}" class="thm-btn feature-one__btn">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Feature One End-->
+
+        <!--Brand One Start-->
+        <section class="brand-one">
+            <div class="container">
+                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+                            "0": {
+                                "spaceBetween": 30,
+                                "slidesPerView": 2
+                            },
+                            "375": {
+                                "spaceBetween": 30,
+                                "slidesPerView": 2
+                            },
+                            "575": {
+                                "spaceBetween": 30,
+                                "slidesPerView": 3
+                            },
+                            "767": {
+                                "spaceBetween": 50,
+                                "slidesPerView": 4
+                            },
+                            "991": {
+                                "spaceBetween": 50,
+                                "slidesPerView": 5
+                            },
+                            "1199": {
+                                "spaceBetween": 100,
+                                "slidesPerView": 6
+                            }
+                        }}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-1.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-2.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-3.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-4.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-5.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-6.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-1.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-2.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-3.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-4.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-5.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <img src="{{ asset('assets/images/brand/brand-1-6.png') }}" alt="">
+                        </div><!-- /.swiper-slide -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Brand One End-->
+
+        <!--Testimonial One Start-->
+        <section class="testimonial-one">
+            <div class="testimonial-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image:url('{{ asset('assets/images/backgrounds/testimonial-one-bg.jpg') }}')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="testimonial-one__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Our Testimonials</span>
+                                <h2 class="section-title__title">What they are talking about global Pathfields</h2>
+                            </div>
+                            <p class="testimonial-one__text-1">Hear from our volunteers, partners, and beneficiaries about how Global Pathfields is making a real difference. 
+                            From transforming communities to empowering individuals, our impact is felt far and wide.</p>
+                            <a href="#" class="thm-btn testimonial-one__btn">all testimonials</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="testimonial-one__right">
+                            <div class="testimonial-one__img-1 zoom-fade">
+                                <img src="{{ asset('assets/images/testimonial/testimonial-img-1.jpg') }}" alt="">
+                            </div>
+                            <div class="testimonial-one__img-1 testimonial-one__img-2 zoom-fade">
+                                <img src="{{ asset('assets/images/testimonial/testimonial-img-2.jpg') }}" alt="">
+                            </div>
+                            <div class="testimonial-one__img-1 testimonial-one__img-3 zoom-fade">
+                                <img src="{{ asset('assets/images/testimonial/testimonial-img-3.jpg') }}" alt="">
+                            </div>
+                            <div class="testimonial-one__img-1 testimonial-one__img-4 zoom-fade">
+                                <img src="{{ asset('assets/images/testimonial/testimonial-img-4.jpg') }}" alt="">
+                            </div>
+                            <div class="testimonial-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                                "loop": true,
+                                "autoplay": true,
+                                "margin": 50,
+                                "nav": true,
+                                "dots": false,
+                                "smartSpeed": 500,
+                                "autoplayTimeout": 10000,
+                                "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                                "responsive": {
+                                    "0": {
+                                        "items": 1
+                                    },
+                                    "768": {
+                                        "items": 1
+                                    },
+                                    "992": {
+                                        "items": 1
+                                    },
+                                    "1200": {
+                                        "items": 1
+                                    }
+                                }
+                            }'>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Arvind Unni</h3>
+                                            <p class="testimonial-one__client-sub-title">Urban Poverty Reduction Thematic Lead
+Indo Global Social Service Society (IGSSS)
+New Delhi</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">Our work with Global Pathfields was a positive experience. They helped us in the analysis of
+data for our Baseline for Enabling Inclusive Cities Project commissioned by European Union.
+The analysis includes more than 5000 surveys, involving a complex set of variables and
+parameters. The document has been widely appreciated in the civil society sector and
+especially amongst the organizations working with Homeless.
+The best part of working with Global Pathfields apart from their analytical skills was their
+adaptive capacities to engage with nuanced issues like urban homelessness and also the
+ability to work with diverse stakeholders that were involved in the making of the report.
+Also, really value their commitment to the task and quick turnaround time in adverse time
+constraints that we had as a team.
+I wish them success in the year ahead and also look forward to working with them.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Nirmala Mishra</h3>
+                                            <p class="testimonial-one__client-sub-title">Assistant Vice President
+                                            Smile Foundation</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">Global Pathfields is one of the prime partner with Smile Foundation to develop IEC/BCC
+material on Nutrition, MCH, Anemia, WASH etc. They are providing technical support to
+develop posters, flip book, facilitator guide for the projects supported by the reputed
+companies.
+I am impressed with the creativity and innovative approach used to design the
+communication materials. The IEC materials drafted by the Global Pathfields were highly
+appreciated by the donor agency. The Organisation is well oriented, highly professional,
+organized and is always open to constructive feedback, making our business relationship
+both effortless and pleasant.
+Gaurav Joshi founder of the Organisation is very dedicated and sincere. Gaurav is a self-
+motivated, persistent hard worker, diligent, desire to experiment and always finding new
+ways to achieving the results is unparalleled.
+I congratulate Gaurav and his team for the success and achievements they have made in
+short period. All my best wishes to Global Pathfields for their future endeavors.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Alok Kumar</h3>
+                                            <p class="testimonial-one__client-sub-title">Head - Corporate Social Responsibility (CSR)
+                                            Adventz Group (Dr. K.K Birla Group of Companies)</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">I have found Global Pathfields a result oriented, technically sound institution dedicated to
+proving development support and execution. The institution has already made a significant
+contribution to many mid-size and large size donor funded as well as state driven programs
+in the county.
+I am sure, that under the strong leadership of Mr. Joshi, and with a robust and transparent
+organizational system in place, Global Pathfields is all set to provide leadership in
+developing innovative partnerships, and solutions to address complex social problems.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Dr. Andreas Brandner</h3>
+                                            <p class="testimonial-one__client-sub-title">Managing Director
+KMA Knowledge Management Associates GmbH
+Gersthofer Straße 162, 1180 Vienna</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">KMA Knowledge Management Associates GmbH based in Vienna, Austria, working as a
+provider and developer of Knowledge Management (KM) services. Our mission is to support
+companies, their employees, as well as cities and regions in achieving outstanding business
+results through excellence in KM. We work in Europe, Asia and Africa, and also support
+knowledge partnerships and business collaboration for sustainable development.
+KMA and Global Pathfields developed a Knowledge Partnership to promote a liveable,
+effective and sustainable knowledge community, the exchange of ideas and experiences and
+setting initiatives and strengthening KM society in India.
+The purpose of this partnership is to develop groundbreaking concepts, methods and
+instruments for the implementation of Knowledge Management in India and support
+Government, Private Sector and International Organisations.
+During our collaboration, I have found Global Pathfields a result oriented, technically sound
+institution dedicated to proving development support and execution. It is overwhelming to
+know that Global Pathfields is playing a pivotal role in the empowerment of disadvantaged
+communities in India and also contributing substantially in the policy forums at national and
+international level.
+I am sure, that under the committed and professionally strong leadership of Gaurav and
+with a robust and transparent organizational system in place, Global Pathfields is all set to
+provide leadership in developing innovative partnerships, and solutions to address complex
+social problems.
+The organisation has done exemplary work in the last few years to make all of us proud and
+I hope that the growth journey will be further proliferate in the years to come.
+I congratulate Gaurav and his team for the success and achievements they have made in
+short period.
+I look forward to our cooperation and joint interventions in India.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Dr. Gaurav Arya</h3>
+                                            <p class="testimonial-one__client-sub-title">Regional Director (Patient Access)
+                                            Abott Health Care India Limited</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">In the many years of my experience in public health and development sector, I have come
+across very few organizations that have a strong team, a robust methodology and attention
+to detail when it comes to conducting and evaluating community-based projects. In my
+observation of Gaurav’s work at the helm of Global Pathfields, I felt that I found this rare
+mix.
+It gives me immense pleasure to see Gaurav and Global Pathfields grow with every passing
+day. Having worked at the intersection of health, development and policy domains, I feel
+that humanitarian and development work needs more organizations like Global Pathfields
+that not only excel in the execution of projects but are equally good at measuring and
+evaluating them.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Chandan Verma</h3>
+                                            <p class="testimonial-one__client-sub-title">National Partnership Officer-Govt. & CSR Partnerships
+                                            Humana People to People India</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">It is overwhelming to know that Global Pathfields is playing a pivotal role in uplifting the
+overall quality of life for the most vulnerable population of India through various in-house
+inclusive development programs. I was glad to learn that each of the programs has been
+crafted with utmost precision, keeping in mid every element that is a must for the
+population on focus i.e. children, women, youth and the community.
+Seamless planning and execution of various programs like SEED, WASH, Waste
+Management, Support My School Campaign, etc are milestones achieved in no time, that
+has not only garnered trust and admiration from various partners, however has also
+increased the geographical presence of the organisation, nationwide.
+I must mention that, the dedicated team of Global Pathfields team is on a long journey of
+offering their services to the not so fortunate one’s of our society, hence what you have
+accomplished till date is remarkable and exemplary.
+Keep up the good work and scale new heights team!
+All the best for your future endeavours</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Deep Chandra Papnoi</h3>
+                                            <p class="testimonial-one__client-sub-title">Programme Manager
+                                            United Nations Global Compact Network India</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">Global Pathfields is a not for profit Organisation and at the forefront of addressing the
+development challenges related to Sustainable Development Goals (SDGs) in India. With an
+organized, dynamic, passionate team that is dedicated to making a niche for themselves and
+contributing substantially in the development sector.
+The organization has been a joy to work with and is having a positive impact on the
+communities.
+We have been impressed with their unwavering commitment to bring positive changes in
+the lives of the disadvantaged communities, quality of their work, speed, dedication and
+professionalism in their programs, make the organisation a distinct entity.
+The organisation through its program implementation bringing the changes in the lives of
+disadvantaged communities, and developing development models, which could be
+scaled up further by the donor and the Government. Global Pathfields emphasizes positive
+action for community involvement and desired outcomes.
+Furthermore, the organisation in a short span of time, develop a strong partnership with
+various national and international organisations and demonstrated presence on various
+policy forums as well. Global Pathfields has been a proactive supporter of United National
+Global Compact Network in India and contributed substantially on the policy discussions and
+global forums.
+We highly appreciate the efforts of the Global Pathfields and recommend them for the
+partnerships with the private sector, UN and Government.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                                <div class="item">
+                                    <!--Testimonial One Single Start-->
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
+                                        </div>
+                                        <div class="testimonial-one__client-img">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                        </div>
+                                        <div class="testimonial-one__client-info">
+                                            <h3 class="testimonial-one__client-name">Manish Kumar</h3>
+                                            <p class="testimonial-one__client-sub-title">Deputy Director-International
+                                            Confederation of Indian Industries (CII)</p>
+                                        </div>
+                                        <div class="testimonial-one__quote">
+                                            <span class="icon-double-quotes"></span>
+                                        </div>
+                                        <p class="testimonial-one__text-2">Current pandemic COVID 19 presents huge opportunity to Global Pathfields in the areas of
+Skill Development and Inclusive Public Health Services for Indians.
+Delivery of Skill development through digital platform for people who are still not part of
+digital infrastructure is huge challenge for our country since classroom trainings and
+gathering of people are going to be difficult in coming months and there and there are
+chances that post COVID there would be more acceptance for online vocation education
+among employers both ends of supply and demand side. Global Pathfields through
+international collaborators can bring the best from international partners and put it to the
+service of Nation.
+Similarly delivery of public health services through digital platform is a great opportunity for
+Global Pathfields to develop new and innovative models which can bring these services to
+the doorsteps of people of the country who are still not able to access basic health services
+and there huge gap exists between the quality health care and poor population of our
+country.
+The organisation has done exemplary work in the last few years to make all of us proud and
+I hope it will venture into hard core solid implementation of projects which will bring many
+more benefits to its stakeholders and community.</p>
+                                    </div>
+                                    <!--Testimonial One Single End-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonial One End-->
+
+        <!--Gallery One Start-->
+        <section class="gallery-one">
+            <div class="gallery-one__top">
+                <h3 class="gallery-one__top-title">Our photo gallery</h3>
+            </div>
+            <div class="gallery-one__bottom">
+                <div class="gallery-one__container">
+                    <ul class="list-unstyled gallery-one__list">
+                        <li class="gallery-one__single wow fadeInUp" data-wow-delay="100ms">
+                            <div class="gallery-one__img">
+                                <img src="{{ asset('assets/images/gallery/gallery-1-1.jpg') }}" alt="">
+                                <a href="assets/images/gallery/gallery-1-1.jpg" class="img-popup"></a>
+                                <div class="gallery-one__content">
+                                    <!-- /.img-popup -->
+                                    <p class="gallery-one__sub-title">Charity</p>
+                                    <h5 class="gallery-one__title"><a href="{{ route('gallery') }}">Education</a></h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery-one__single wow fadeInUp" data-wow-delay="200ms">
+                            <div class="gallery-one__img">
+                                <img src="{{ asset('assets/images/gallery/gallery-1-2.jpg') }}" alt="">
+                                <a href="assets/images/gallery/gallery-1-2.jpg" class="img-popup"></a>
+                                <div class="gallery-one__content">
+                                    <!-- /.img-popup -->
+                                    <p class="gallery-one__sub-title">Charity</p>
+                                    <h5 class="gallery-one__title"><a href="{{ route('gallery') }}">Education</a></h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery-one__single wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img">
+                                <img src="{{ asset('assets/images/gallery/gallery-1-3.jpg') }}" alt="">
+                                <a href="assets/images/gallery/gallery-1-3.jpg" class="img-popup"></a>
+                                <div class="gallery-one__content">
+                                    <!-- /.img-popup -->
+                                    <p class="gallery-one__sub-title">Charity</p>
+                                    <h5 class="gallery-one__title"><a href="{{ route('gallery') }}">Education</a></h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery-one__single wow fadeInUp" data-wow-delay="400ms">
+                            <div class="gallery-one__img">
+                                <img src="{{ asset('assets/images/gallery/gallery-1-4.jpg') }}" alt="">
+                                <a href="assets/images/gallery/gallery-1-4.jpg" class="img-popup"></a>
+                                <div class="gallery-one__content">
+                                    <!-- /.img-popup -->
+                                    <p class="gallery-one__sub-title">Charity</p>
+                                    <h5 class="gallery-one__title"><a href="{{ route('gallery') }}">Education</a></h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery-one__single wow fadeInUp" data-wow-delay="500ms">
+                            <div class="gallery-one__img">
+                                <img src="{{ asset('assets/images/gallery/gallery-1-5.jpg') }}" alt="">
+                                <a href="assets/images/gallery/gallery-1-5.jpg" class="img-popup"></a>
+                                <div class="gallery-one__content">
+                                    <!-- /.img-popup -->
+                                    <p class="gallery-one__sub-title">Charity</p>
+                                    <h5 class="gallery-one__title"><a href="{{ route('gallery') }}">Education</a></h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Gallery One End-->
+
+        <!--FAQ One Start-->
+        <section class="faq-one">
+    <div class="faq-one-shape-1" style="background-image:url('{{ asset('assets/images/shapes/faq-one-shape-1.png') }}')"></div>
+    <div class="faq-one-bg" style="background-image:url('{{ asset('assets/images/backgrounds/faq-one-bg.png') }}')"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__left">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Recently Asked Questions</span>
+                        <h2 class="section-title__title">Common Questions About Our Work and Impact</h2>
+                    </div>
+                    <p class="faq-one__text-1">
+                        We understand you may have questions about how we operate, our programs, and ways you can contribute. 
+                        Here are answers to some of the most frequently asked questions.
+                    </p>
+                    <a href="{{ route('faq') }}" class="thm-btn faq-one__btn">Learn how to get help</a>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__right">
+                    <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+                        <div class="accrodion active">
+                            <div class="accrodion-title">
+                                <h4>How can I support your NGO?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        You can support us by donating, volunteering, or spreading awareness about our initiatives. 
+                                        Visit our donation or volunteer page to get started.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Where does my donation go?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        Your donation directly supports our programs, including education, healthcare, and community 
+                                        development initiatives. We ensure transparency in fund allocation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>How can I become a volunteer?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        You can sign up as a volunteer through our website. We offer various opportunities 
+                                        to engage in meaningful work that positively impacts communities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accrodion last-chiled">
+                            <div class="accrodion-title">
+                                <h4>Is my donation tax-deductible?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>
+                                        Yes, we are a registered non-profit, and donations made to our organization 
+                                        may be eligible for tax deductions as per applicable laws.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!--FAQ One End-->
+
+        <!--Counter One Start-->
+        <section class="counter-one">
+            <div class="container">
+                <div class="counter-one__inner">
+                    <div class="counter-one-bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image:url('{{ asset('assets/images/backgrounds/counter-one-bg.jpg') }}')"></div>
+                    <ul class="list-unstyled counter-one__list">
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="70">00</h3>
+                                <span class="counter-one__letter">m</span>
+                            </div>
+                            <p class="counter-one__text">Total donation</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="48">00</h3>
+                                <span class="counter-one__letter">k</span>
+                            </div>
+                            <p class="counter-one__text">Projects funded</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="38">00</h3>
+                                <span class="counter-one__letter">%</span>
+                            </div>
+                            <p class="counter-one__text">Kids need help</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="230">00</h3>
+                                <span class="counter-one__letter"></span>
+                            </div>
+                            <p class="counter-one__text">Our volunteers</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Counter One End-->
+
+        <!--News One Start-->
+        <section class="news-one">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">News & articles</span>
+                    <h2 class="section-title__title">Directly from the <br> latest news and articles
+                    </h2>
+                </div>
+                <div class="row">
+                    <!--News One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="news-one__single">
+                            <div class="news-one__img">
+                                <img src="{{ asset('assets/images/blog/news-1-1.jpg') }}" alt="">
+                            </div>
+                            <div class="news-one__content-box">
+                                <div class="news-one__content-inner">
+                                    <div class="news-one__content">
+                                        <ul class="list-unstyled news-one__meta">
+                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
+                                            </li>
+                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">How does the
+                                                malnutrition
+                                                affect children?</a></h3>
+                                    </div>
+                                    <div class="news-one__bottom">
+                                        <div class="news-one__read-more">
+                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
+                                                More</a>
+                                        </div>
+                                        <div class="news-one__share">
+                                            <a href="#"><i class="fas fa-share-alt"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="news-one__social-box">
+                                        <ul class="list-unstyled news-one__social">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="news-one__date">
+                                    <p>23 May, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--News One Single End-->
+                    <!--News One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="news-one__single">
+                            <div class="news-one__img">
+                                <img src="{{ asset('assets/images/blog/news-1-2.jpg') }}" alt="">
+                            </div>
+                            <div class="news-one__content-box">
+                                <div class="news-one__content-inner">
+                                    <div class="news-one__content">
+                                        <ul class="list-unstyled news-one__meta">
+                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
+                                            </li>
+                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">Lorem Ipsum has been the
+                                                industry's standard</a></h3>
+                                    </div>
+                                    <div class="news-one__bottom">
+                                        <div class="news-one__read-more">
+                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
+                                                More</a>
+                                        </div>
+                                        <div class="news-one__share">
+                                            <a href="#"><i class="fas fa-share-alt"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="news-one__social-box">
+                                        <ul class="list-unstyled news-one__social">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="news-one__date">
+                                    <p>23 May, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--News One Single End-->
+                    <!--News One Single Start-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="news-one__single">
+                            <div class="news-one__img">
+                                <img src="{{ asset('assets/images/blog/news-1-3.jpg') }}" alt="">
+                            </div>
+                            <div class="news-one__content-box">
+                                <div class="news-one__content-inner">
+                                    <div class="news-one__content">
+                                        <ul class="list-unstyled news-one__meta">
+                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
+                                            </li>
+                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
+                                                    Comments</a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">There are many
+                                                variations of passages of Lorem</a></h3>
+                                    </div>
+                                    <div class="news-one__bottom">
+                                        <div class="news-one__read-more">
+                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
+                                                More</a>
+                                        </div>
+                                        <div class="news-one__share">
+                                            <a href="#"><i class="fas fa-share-alt"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="news-one__social-box">
+                                        <ul class="list-unstyled news-one__social">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="news-one__date">
+                                    <p>23 May, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--News One Single End-->
+                </div>
+            </div>
+        </section>
+        <!--News One End-->
+
+@endsection
