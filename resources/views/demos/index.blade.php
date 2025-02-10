@@ -1425,7 +1425,7 @@ Skill Development and Inclusive Public Health Services for Indians.
 Delivery of Skill development through digital platform for people who are still not part of
 digital infrastructure is huge challenge for our country since classroom trainings and
 gathering of people are going to be difficult in coming months and there and there are
-chances that post COVID there would be more acceptance for online vocation education
+chances that post COVID there would be more acceptance for online vocation education`
 among employers both ends of supply and demand side. Global Pathfields through
 international collaborators can bring the best from international partners and put it to the
 service of Nation.
