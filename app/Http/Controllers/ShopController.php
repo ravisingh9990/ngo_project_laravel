@@ -8,27 +8,27 @@ class ShopController extends Controller
 {
     public function cart()
     {
-        return view('Shop/cart');
+        return view('shop/cart');
     }
     
     public function checkout()
     {
-        return view('Shop/checkout');
+        return view('shop/checkout');
     }
     
     public function contact()
     {
-        return view('Shop/contact');
+        return view('shop/contact');
     }
     
     public function productDetails()
     {
-        return view('Shop/productDetails');
+        return view('shop/productDetails');
     }
     
     public function products()
     {
-        return view('Shop/products');
+        return view('shop/products');
     }
     
 }

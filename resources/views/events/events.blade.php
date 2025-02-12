@@ -13,10 +13,10 @@
 <!--Events Page Start-->
 <section class="events-page">
     <div class="container">
-    <div class="section-title text-center">
-                        <span class="section-title__tagline">Explore Our Events</span>
-                        <h2 class="section-title__title">Find Out the Impact of our Efforts <br> Through Our Events</h2>
-                        </div>
+        <div class="section-title text-center">
+            <span class="section-title__tagline">Explore Our Events</span>
+            <h2 class="section-title__title">Find Out the Impact of our Efforts <br> Through Our Events</h2>
+        </div>
         <div class="row">
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <!--Events One Single Start-->

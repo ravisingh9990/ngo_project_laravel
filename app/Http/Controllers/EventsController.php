@@ -20,5 +20,6 @@ class EventsController extends Controller
     {
         return view('events/eventsCarousel');
     }
+
     
 }

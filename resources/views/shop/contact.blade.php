@@ -5,7 +5,7 @@
     $img='assets/images/backgrounds/page-header-bg.jpg';
     $title='Home';
     $title2 = 'Contact';
-    $subTitle = 'Contact us';
+    $subTitle = 'Contact';
 @endphp
 
 @section('content')

@@ -13,6 +13,10 @@
 <!--Gallery Page Start-->
 <section class="gallery-page">
     <div class="container">
+    <div class="section-title text-center">
+            <span class="section-title__tagline">Our Partners</span>
+            <h2 class="section-title__title">Our Valuable and Trusted Partners</h2>
+        </div>
         <div class="row">
             <!--Gallery Page Single Start-->
             <div class="col-xl-4 col-lg-6 col-md-6">

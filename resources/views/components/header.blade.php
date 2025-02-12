@@ -4,7 +4,7 @@
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__left">
                             <div class="main-menu__logo">
-                                <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/resources/logo-1.png') }}" alt=""></a>
+                                <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/resources/logo-gif.png') }}" alt=""></a>
                             </div>
                             <div class="main-menu__shape-1 float-bob-x">
                                 <img src="{{ asset('assets/images/shapes/main-menu-shape-1.png') }}" alt="">

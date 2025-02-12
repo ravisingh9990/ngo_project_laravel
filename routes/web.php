@@ -80,6 +80,7 @@ Route::prefix('pages')->group(function () {
         Route::get('/volunteer', 'volunteer')->name('volunteer');
         Route::get('/volunteer-carousel', 'volunteerCarousel')->name('volunteerCarousel');
         
+        
     });
 });
 
