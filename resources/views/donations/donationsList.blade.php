@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Donations List';
+    $headTitle='Resources';
     $img='assets/images/backgrounds/page-header-bg.jpg';
     $title='Home';
-    $title2 = 'Donations list';
-    $subTitle = 'Donations list';
+    $title2 = 'Resources';
+    $subTitle = 'Resources';
 @endphp
 
 @section('content')
@@ -13,6 +13,10 @@
         <!--Donations List Start-->
         <section class="donations-list">
             <div class="container">
+            <div class="section-title text-center">
+            <span class="section-title__tagline">Explore Our Resources</span>
+                        <h2 class="section-title__title">Find Out the Resources, Publications and Reports</h2>
+                        </div>
                 <div class="donations-list__inner">
                     <!--Donations List Single Start-->
                     <div class="donations-list__single">

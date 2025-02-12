@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Gallery';
+    $headTitle='Partners';
     $img='assets/images/backgrounds/page-header-bg.jpg';
     $title='Home';
-    $title2 = 'Pages';
-    $subTitle = 'Gallery';
+    $title2 = 'Partners';
+    $subTitle = 'Partners';
 @endphp
 
 @section('content')
