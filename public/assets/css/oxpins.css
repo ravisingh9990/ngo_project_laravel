@@ -451,8 +451,8 @@ ul {
 .main-menu__wrapper {
   position: relative;
   display: block;
-  padding-left: 60px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .main-menu__wrapper-inner {
@@ -464,8 +464,8 @@ ul {
 .main-menu__left {
   position: relative;
   display: block;
-  width: 9%;
-  margin-right: 157px;
+  width: 15%;
+  margin-right: 100px;
 }
 
 .main-menu__logo {
@@ -483,7 +483,10 @@ ul {
   -ms-transform: translateZ(0);
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-}
+  width: 100px;
+  height: auto;
+  display: block;
+} 
 
 .main-menu__shape-1 {
   position: absolute;
@@ -497,7 +500,7 @@ ul {
 
 .main-menu__right {
   display: block;
-  width: 91%;
+  width: 85%;
 }
 
 .main-menu__right-top {
