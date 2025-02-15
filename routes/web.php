@@ -54,6 +54,19 @@ Route::prefix('events')->group(function () {
         
     });
 });
+// focus areas
+Route::prefix('focusAreas')->group(function () {
+    Route::controller(FocusAreasController::class)->group(function () {
+        Route::get('/child-rights', 'App\Http\Controllers\FocusAreasController@childRights')->name('childRights'); 
+        Route::get('/social-development', 'App\Http\Controllers\FocusAreasController@socialDevelopment')->name('socialDevelopment'); 
+        Route::get('/public-health', 'App\Http\Controllers\FocusAreasController@publicHealth')->name('publicHealth'); 
+        Route::get('/environment', 'App\Http\Controllers\FocusAreasController@environment')->name('environment'); 
+        Route::get('/monitoring', 'App\Http\Controllers\FocusAreasController@monitoring')->name('monitoring'); 
+        // Route::get('/events', 'events')->name('events');
+        // Route::get('/events-carousel', 'eventsCarousel')->name('eventsCarousel');
+        
+    });
+});
 
 // news
 Route::prefix('news')->group(function () {

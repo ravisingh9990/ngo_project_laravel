@@ -219,7 +219,7 @@
                                 <h3 class="feature-three__title">Child Rights</h3>
                             </div>
                             <div class="feature-three__btn">
-                                <a href="{{ route('about') }}">See more</a>
+                                <a href="{{ route('childRights') }}">See more</a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                                 <h3 class="feature-three__title">Skill Development</h3>
                             </div>
                             <div class="feature-three__btn feature-three__btn-two">
-                                <a href="{{ route('about') }}">See more</a>
+                                <a href="{{ route('socialDevelopment') }}">See more</a>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                                 <h3 class="feature-three__title">Public Health</h3>
                             </div>
                             <div class="feature-three__btn feature-three__btn-two">
-                                <a href="{{ route('about') }}">See more</a>
+                                <a href="{{ route('publicHealth') }}">See more</a>
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                                 <h3 class="feature-three__title">Environment</h3>
                             </div>
                             <div class="feature-three__btn">
-                                <a href="{{ route('about') }}">See more</a>
+                                <a href="{{ route('environment') }}">See more</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                                 <h3 class="feature-three__title">Monitoring</h3>
                             </div>
                             <div class="feature-three__btn feature-three__btn-two">
-                                <a href="{{ route('about') }}">See more</a>
+                                <a href="{{ route('monitoring') }}">See more</a>
                             </div>
                         </div>
                     </div>
