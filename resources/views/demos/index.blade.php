@@ -744,6 +744,47 @@
         </section>
         <!--Feature One End-->
 
+         <!--Counter One Start-->
+         <section class="counter-one">
+            <div class="container">
+                <div class="counter-one__inner">
+                    <div class="counter-one-bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image:url('{{ asset('assets/images/backgrounds/counter-one-bg.jpg') }}')"></div>
+                    <ul class="list-unstyled counter-one__list">
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="70">00</h3>
+                                <span class="counter-one__letter">m</span>
+                            </div>
+                            <p class="counter-one__text">Total donation</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="48">00</h3>
+                                <span class="counter-one__letter">k</span>
+                            </div>
+                            <p class="counter-one__text">Projects funded</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="38">00</h3>
+                                <span class="counter-one__letter">%</span>
+                            </div>
+                            <p class="counter-one__text">Kids need help</p>
+                        </li>
+                        <li class="counter-one__single">
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="230">00</h3>
+                                <span class="counter-one__letter"></span>
+                            </div>
+                            <p class="counter-one__text">Our volunteers</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Counter One End-->
+
+
         <!--Brand One Start-->
         <section class="brand-one">
             <div class="container">
@@ -829,7 +870,7 @@
                             </div>
                             <p class="testimonial-one__text-1">Hear from our volunteers, partners, and beneficiaries about how Global Pathfields is making a real difference. 
                             From transforming communities to empowering individuals, our impact is felt far and wide.</p>
-                            <a href="#" class="thm-btn testimonial-one__btn">all testimonials</a>
+                            <a href="{{ route('about') }}" class="thm-btn testimonial-one__btn">all testimonials</a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -887,17 +928,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">Our work with Global Pathfields was a positive experience. They helped us in the analysis of
-                                        data for our Baseline for Enabling Inclusive Cities Project commissioned by European Union.
-                                        The analysis includes more than 5000 surveys, involving a complex set of variables and
-                                        parameters. The document has been widely appreciated in the civil society sector and
-                                        especially amongst the organizations working with Homeless.
-                                        The best part of working with Global Pathfields apart from their analytical skills was their
-                                        adaptive capacities to engage with nuanced issues like urban homelessness and also the
-                                        ability to work with diverse stakeholders that were involved in the making of the report.
-                                        Also, really value their commitment to the task and quick turnaround time in adverse time
-                                        constraints that we had as a team.
-                                        I wish them success in the year ahead and also look forward to working with them.</p>
+                                        <p class="testimonial-one__text-2">Working with Global Pathfields on the Enabling Inclusive Cities Project was a great experience. Their expertise in data analysis, adaptability to complex issues like urban homelessness, and ability to collaborate with diverse stakeholders were commendable. Their commitment and quick turnaround were invaluable. Wishing them continued success ahead!</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -917,20 +948,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">Global Pathfields is one of the prime partner with Smile Foundation to develop IEC/BCC
-                                        material on Nutrition, MCH, Anemia, WASH etc. They are providing technical support to
-                                        develop posters, flip book, facilitator guide for the projects supported by the reputed
-                                        companies.
-                                        I am impressed with the creativity and innovative approach used to design the
-                                        communication materials. The IEC materials drafted by the Global Pathfields were highly
-                                        appreciated by the donor agency. The Organisation is well oriented, highly professional,
-                                        organized and is always open to constructive feedback, making our business relationship
-                                        both effortless and pleasant.
-                                        Gaurav Joshi founder of the Organisation is very dedicated and sincere. Gaurav is a self-
-                                        motivated, persistent hard worker, diligent, desire to experiment and always finding new
-                                        ways to achieving the results is unparalleled.
-                                        I congratulate Gaurav and his team for the success and achievements they have made in
-                                        short period. All my best wishes to Global Pathfields for their future endeavors.</p>
+                                        <p class="testimonial-one__text-2">Global Pathfields is a key partner of Smile Foundation, providing technical support for IEC/BCC materials on nutrition, MCH, anemia, and WASH. Their creativity, professionalism, and openness to feedback make collaboration seamless. Founder Gaurav Joshi’s dedication and innovation are truly commendable. Wishing them continued success ahead!</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -950,13 +968,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">I have found Global Pathfields a result oriented, technically sound institution dedicated to
-                                        proving development support and execution. The institution has already made a significant
-                                        contribution to many mid-size and large size donor funded as well as state driven programs
-                                        in the county.
-                                        I am sure, that under the strong leadership of Mr. Joshi, and with a robust and transparent
-                                        organizational system in place, Global Pathfields is all set to provide leadership in
-                                        developing innovative partnerships, and solutions to address complex social problems.</p>
+                                        <p class="testimonial-one__text-2">Global Pathfields is a results-driven, technically sound institution making significant contributions to donor-funded and state-driven programs. Under Mr. Joshi’s strong leadership and a transparent system, they are well-positioned to drive innovative partnerships and solutions for complex social challenges.</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -977,31 +989,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">KMA Knowledge Management Associates GmbH based in Vienna, Austria, working as a
-                                        provider and developer of Knowledge Management (KM) services. Our mission is to support
-                                        companies, their employees, as well as cities and regions in achieving outstanding business
-                                        results through excellence in KM. We work in Europe, Asia and Africa, and also support
-                                        knowledge partnerships and business collaboration for sustainable development.
-                                        KMA and Global Pathfields developed a Knowledge Partnership to promote a liveable,
-                                        effective and sustainable knowledge community, the exchange of ideas and experiences and
-                                        setting initiatives and strengthening KM society in India.
-                                        The purpose of this partnership is to develop groundbreaking concepts, methods and
-                                        instruments for the implementation of Knowledge Management in India and support
-                                        Government, Private Sector and International Organisations.
-                                        During our collaboration, I have found Global Pathfields a result oriented, technically sound
-                                        institution dedicated to proving development support and execution. It is overwhelming to
-                                        know that Global Pathfields is playing a pivotal role in the empowerment of disadvantaged
-                                        communities in India and also contributing substantially in the policy forums at national and
-                                        international level.
-                                        I am sure, that under the committed and professionally strong leadership of Gaurav and
-                                        with a robust and transparent organizational system in place, Global Pathfields is all set to
-                                        provide leadership in developing innovative partnerships, and solutions to address complex
-                                        social problems.
-                                        The organisation has done exemplary work in the last few years to make all of us proud and
-                                        I hope that the growth journey will be further proliferate in the years to come.
-                                        I congratulate Gaurav and his team for the success and achievements they have made in
-                                        short period.
-                                        I look forward to our cooperation and joint interventions in India.</p>
+                                        <p class="testimonial-one__text-2">KMA Knowledge Management Associates GmbH partnered with Global Pathfields to foster a sustainable knowledge community in India. Global Pathfields has proven to be a results-driven, technically sound institution, empowering disadvantaged communities and contributing to policy forums. Under Gaurav’s strong leadership, the organization is poised to drive impactful partnerships and solutions. I congratulate the team on their success and look forward to continued collaboration.</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -1021,16 +1009,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">In the many years of my experience in public health and development sector, I have come
-                                        across very few organizations that have a strong team, a robust methodology and attention
-                                        to detail when it comes to conducting and evaluating community-based projects. In my
-                                        observation of Gaurav’s work at the helm of Global Pathfields, I felt that I found this rare
-                                        mix.
-                                        It gives me immense pleasure to see Gaurav and Global Pathfields grow with every passing
-                                        day. Having worked at the intersection of health, development and policy domains, I feel
-                                        that humanitarian and development work needs more organizations like Global Pathfields
-                                        that not only excel in the execution of projects but are equally good at measuring and
-                                        evaluating them.</p>
+                                        <p class="testimonial-one__text-2">In my years in public health and development, I’ve encountered few organizations as strong as Global Pathfields. Under Gaurav’s leadership, they excel in executing and evaluating community-based projects with precision. Their growth is inspiring, and the sector needs more organizations like them.</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -1050,20 +1029,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">It is overwhelming to know that Global Pathfields is playing a pivotal role in uplifting the
-                                        overall quality of life for the most vulnerable population of India through various in-house
-                                        inclusive development programs. I was glad to learn that each of the programs has been
-                                        crafted with utmost precision, keeping in mid every element that is a must for the
-                                        population on focus i.e. children, women, youth and the community.
-                                        Seamless planning and execution of various programs like SEED, WASH, Waste
-                                        Management, Support My School Campaign, etc are milestones achieved in no time, that
-                                        has not only garnered trust and admiration from various partners, however has also
-                                        increased the geographical presence of the organisation, nationwide.
-                                        I must mention that, the dedicated team of Global Pathfields team is on a long journey of
-                                        offering their services to the not so fortunate one’s of our society, hence what you have
-                                        accomplished till date is remarkable and exemplary.
-                                        Keep up the good work and scale new heights team!
-                                        All the best for your future endeavours</p>
+                                        <p class="testimonial-one__text-2">Global Pathfields plays a pivotal role in uplifting vulnerable communities in India through well-crafted, inclusive development programs. Their seamless execution of initiatives like SEED, WASH, and Waste Management has earned trust and expanded their nationwide presence. Their dedication is truly remarkable—wishing the team continued success!</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -1083,26 +1049,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">Global Pathfields is a not for profit Organisation and at the forefront of addressing the
-                                        development challenges related to Sustainable Development Goals (SDGs) in India. With an
-                                        organized, dynamic, passionate team that is dedicated to making a niche for themselves and
-                                        contributing substantially in the development sector.
-                                        The organization has been a joy to work with and is having a positive impact on the
-                                        communities.
-                                        We have been impressed with their unwavering commitment to bring positive changes in
-                                        the lives of the disadvantaged communities, quality of their work, speed, dedication and
-                                        professionalism in their programs, make the organisation a distinct entity.
-                                        The organisation through its program implementation bringing the changes in the lives of
-                                        disadvantaged communities, and developing development models, which could be
-                                        scaled up further by the donor and the Government. Global Pathfields emphasizes positive
-                                        action for community involvement and desired outcomes.
-                                        Furthermore, the organisation in a short span of time, develop a strong partnership with
-                                        various national and international organisations and demonstrated presence on various
-                                        policy forums as well. Global Pathfields has been a proactive supporter of United National
-                                        Global Compact Network in India and contributed substantially on the policy discussions and
-                                        global forums.
-                                        We highly appreciate the efforts of the Global Pathfields and recommend them for the
-                                        partnerships with the private sector, UN and Government.</p>
+                                        <p class="testimonial-one__text-2">Global Pathfields is a dynamic nonprofit tackling Sustainable Development Goals (SDGs) in India with passion and professionalism. Their impactful programs uplift disadvantaged communities and create scalable development models. With strong partnerships and policy contributions, they stand out as a trusted organization. We highly recommend them for collaborations with the private sector, UN, and Government.</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -1122,23 +1069,7 @@
                                         <div class="testimonial-one__quote">
                                             <span class="icon-double-quotes"></span>
                                         </div>
-                                        <p class="testimonial-one__text-2">Current pandemic COVID 19 presents huge opportunity to Global Pathfields in the areas of
-                                        Skill Development and Inclusive Public Health Services for Indians.
-                                        Delivery of Skill development through digital platform for people who are still not part of
-                                        digital infrastructure is huge challenge for our country since classroom trainings and
-                                        gathering of people are going to be difficult in coming months and there and there are
-                                        chances that post COVID there would be more acceptance for online vocation education`
-                                        among employers both ends of supply and demand side. Global Pathfields through
-                                        international collaborators can bring the best from international partners and put it to the
-                                        service of Nation.
-                                        Similarly delivery of public health services through digital platform is a great opportunity for
-                                        Global Pathfields to develop new and innovative models which can bring these services to
-                                        the doorsteps of people of the country who are still not able to access basic health services
-                                        and there huge gap exists between the quality health care and poor population of our
-                                        country.
-                                        The organisation has done exemplary work in the last few years to make all of us proud and
-                                        I hope it will venture into hard core solid implementation of projects which will bring many
-                                        more benefits to its stakeholders and community.</p>
+                                        <p class="testimonial-one__text-2">COVID-19 presents a great opportunity for Global Pathfields to drive skill development and inclusive public health services in India. Their ability to leverage global collaborations can bridge digital gaps and enhance vocational education and healthcare access. With their proven track record, they are poised for impactful project implementation ahead.</p>
                                     </div>
                                     <!--Testimonial One Single End-->
                                 </div>
@@ -1302,188 +1233,6 @@
 
         <!--FAQ One End-->
 
-        <!--Counter One Start-->
-        <section class="counter-one">
-            <div class="container">
-                <div class="counter-one__inner">
-                    <div class="counter-one-bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image:url('{{ asset('assets/images/backgrounds/counter-one-bg.jpg') }}')"></div>
-                    <ul class="list-unstyled counter-one__list">
-                        <li class="counter-one__single">
-                            <div class="counter-one__count-box">
-                                <h3 class="odometer" data-count="70">00</h3>
-                                <span class="counter-one__letter">m</span>
-                            </div>
-                            <p class="counter-one__text">Total donation</p>
-                        </li>
-                        <li class="counter-one__single">
-                            <div class="counter-one__count-box">
-                                <h3 class="odometer" data-count="48">00</h3>
-                                <span class="counter-one__letter">k</span>
-                            </div>
-                            <p class="counter-one__text">Projects funded</p>
-                        </li>
-                        <li class="counter-one__single">
-                            <div class="counter-one__count-box">
-                                <h3 class="odometer" data-count="38">00</h3>
-                                <span class="counter-one__letter">%</span>
-                            </div>
-                            <p class="counter-one__text">Kids need help</p>
-                        </li>
-                        <li class="counter-one__single">
-                            <div class="counter-one__count-box">
-                                <h3 class="odometer" data-count="230">00</h3>
-                                <span class="counter-one__letter"></span>
-                            </div>
-                            <p class="counter-one__text">Our volunteers</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!--Counter One End-->
-
-        <!--News One Start-->
-        <section class="news-one">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">News & articles</span>
-                    <h2 class="section-title__title">Directly from the <br> latest news and articles
-                    </h2>
-                </div>
-                <div class="row">
-                    <!--News One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="news-one__single">
-                            <div class="news-one__img">
-                                <img src="{{ asset('assets/images/blog/news-1-1.jpg') }}" alt="">
-                            </div>
-                            <div class="news-one__content-box">
-                                <div class="news-one__content-inner">
-                                    <div class="news-one__content">
-                                        <ul class="list-unstyled news-one__meta">
-                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
-                                            </li>
-                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
-                                                    Comments</a>
-                                            </li>
-                                        </ul>
-                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">How does the
-                                                malnutrition
-                                                affect children?</a></h3>
-                                    </div>
-                                    <div class="news-one__bottom">
-                                        <div class="news-one__read-more">
-                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
-                                                More</a>
-                                        </div>
-                                        <div class="news-one__share">
-                                            <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="news-one__social-box">
-                                        <ul class="list-unstyled news-one__social">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="news-one__date">
-                                    <p>23 May, 2022</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--News One Single End-->
-                    <!--News One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="news-one__single">
-                            <div class="news-one__img">
-                                <img src="{{ asset('assets/images/blog/news-1-2.jpg') }}" alt="">
-                            </div>
-                            <div class="news-one__content-box">
-                                <div class="news-one__content-inner">
-                                    <div class="news-one__content">
-                                        <ul class="list-unstyled news-one__meta">
-                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
-                                            </li>
-                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
-                                                    Comments</a>
-                                            </li>
-                                        </ul>
-                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">Lorem Ipsum has been the
-                                                industry's standard</a></h3>
-                                    </div>
-                                    <div class="news-one__bottom">
-                                        <div class="news-one__read-more">
-                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
-                                                More</a>
-                                        </div>
-                                        <div class="news-one__share">
-                                            <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="news-one__social-box">
-                                        <ul class="list-unstyled news-one__social">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="news-one__date">
-                                    <p>23 May, 2022</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--News One Single End-->
-                    <!--News One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="news-one__single">
-                            <div class="news-one__img">
-                                <img src="{{ asset('assets/images/blog/news-1-3.jpg') }}" alt="">
-                            </div>
-                            <div class="news-one__content-box">
-                                <div class="news-one__content-inner">
-                                    <div class="news-one__content">
-                                        <ul class="list-unstyled news-one__meta">
-                                            <li><a href="{{ route('newsDetails') }}"><i class="far fa-user-circle"></i> Admin</a>
-                                            </li>
-                                            <li><a href="{{ route('newsDetails') }}"><i class="fas fa-comments"></i> 2
-                                                    Comments</a>
-                                            </li>
-                                        </ul>
-                                        <h3 class="news-one__title"><a href="{{ route('newsDetails') }}">There are many
-                                                variations of passages of Lorem</a></h3>
-                                    </div>
-                                    <div class="news-one__bottom">
-                                        <div class="news-one__read-more">
-                                            <a href="{{ route('newsDetails') }}"> <span class="icon-right-arrow"></span> Read
-                                                More</a>
-                                        </div>
-                                        <div class="news-one__share">
-                                            <a href="#"><i class="fas fa-share-alt"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="news-one__social-box">
-                                        <ul class="list-unstyled news-one__social">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="news-one__date">
-                                    <p>23 May, 2022</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--News One Single End-->
-                </div>
-            </div>
-        </section>
-        <!--News One End-->
+       
 
 @endsection
