@@ -15,113 +15,116 @@
 
         <!--Main Slider Start-->
         <section class="main-slider-two clearfix">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-                "effect": "fade",
-                "pagination": {
-                "el": "#main-slider-pagination",
-                "type": "bullets",
-                "clickable": true
-                },
-                "navigation": {
-                "nextEl": "#main-slider__swiper-button-next",
-                "prevEl": "#main-slider__swiper-button-prev"
-                },
-                "autoplay": {
-                "delay": 5000
-                }}'>
-                <div class="swiper-wrapper">
+        <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+        "effect": "fade",
+        "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+        },
+        "navigation": {
+        "nextEl": "#main-slider__swiper-button-next",
+        "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+        "delay": 5000
+        }}'>
+            <div class="swiper-wrapper">
 
-                    <div class="swiper-slide">
-                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-1.jpg') }}')"></div>
-                        <!-- /.image-layer -->
-
-                        <div class="main-slider-two-shape-1">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                        </div>
-                        <div class="main-slider-two-shape-2">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                        </div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-two__content">
-                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
-                                        <div class="main-slider-two__btn-box">
-                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
-                                        </div>
+                <div class="swiper-slide">
+                    <div class="video-layer">
+                        <video autoplay muted loop playsinline>
+                            <source src="{{ asset('assets/videos/video1.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <!-- <div class="main-slider-two-shape-1">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                    </div>
+                    <div class="main-slider-two-shape-2">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                    </div> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="main-slider-two__content">
+                                    <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <div class="main-slider-two__btn-box">
+                                        <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-2.jpg') }}')"></div>
-                        <!-- /.image-layer -->
-
-                        <div class="main-slider-two-shape-1">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                        </div>
-                        <div class="main-slider-two-shape-2">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                        </div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-two__content">
-                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
-                                        <div class="main-slider-two__btn-box">
-                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="image-layer-two" style="background-image:url('{{ asset('assets/images/backgrounds/main-slider-2-3.jpg') }}')"></div>
-                        <!-- /.image-layer -->
-
-                        <div class="main-slider-two-shape-1">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                        </div>
-                        <div class="main-slider-two-shape-2">
-                            <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                        </div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="main-slider-two__content">
-                                        <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                        <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
-                                        <div class="main-slider-two__btn-box">
-                                            <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- If we need navigation buttons -->
-                <div class="main-slider-two__nav">
-                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                        <i class="icon-left-arrow"></i>
-                    </div>
-                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                        <i class="icon-right-arrow"></i>
                     </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="video-layer">
+                        <video autoplay muted loop playsinline>
+                            <source src="{{ asset('assets/videos/video2.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <!-- <div class="main-slider-two-shape-1">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                    </div>
+                    <div class="main-slider-two-shape-2">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                    </div> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="main-slider-two__content">
+                                    <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <div class="main-slider-two__btn-box">
+                                        <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="video-layer">
+                        <video autoplay muted loop playsinline>
+                            <source src="{{ asset('assets/videos/video3.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <!-- <div class="main-slider-two-shape-1">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
+                    </div>
+                    <div class="main-slider-two-shape-2">
+                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
+                    </div> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="main-slider-two__content">
+                                    <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <div class="main-slider-two__btn-box">
+                                        <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="main-slider-two__nav">
+                <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                    <i class="icon-left-arrow"></i>
+                </div>
+                <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                    <i class="icon-right-arrow"></i>
+                </div>
+            </div>
+        </div>
         </section>
         <!--Main Slider End-->
 
@@ -257,7 +260,7 @@
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Environment</h3>
                             </div>
-                            <div class="feature-three__btn">
+                            <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('environment') }}">See more</a>
                             </div>
                         </div>
