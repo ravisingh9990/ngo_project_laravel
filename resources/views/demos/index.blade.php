@@ -212,7 +212,7 @@
                     <span class="section-title__tagline">What We Do?</span>
                     <h2 class="section-title__title">Our Areas of Impact</h2>
                 </div>
-            <div class="row">
+                <div class="row">
                     <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
@@ -229,7 +229,8 @@
                     <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
-                                style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')"></div>
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')">
+                            </div>
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Skill Development</h3>
                             </div>
@@ -241,7 +242,8 @@
                     <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
-                                style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')"></div>
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')">
+                            </div>
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Public Health</h3>
                             </div>
@@ -251,16 +253,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
-                                style="background-image:url('{{ asset('assets/images/resources/feature-3-1.png') }}')"></div>
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-4.png') }}')">
+                            </div>
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Environment</h3>
                             </div>
-                            <div class="feature-three__btn feature-three__btn-two">
+                            <div class="feature-three__btn">
                                 <a href="{{ route('environment') }}">See more</a>
                             </div>
                         </div>
@@ -268,16 +270,21 @@
                     <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
-                                style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')"></div>
+                                style="background-image:url('{{ asset('assets/images/resources/feature-3-5.png') }}')">
+                            </div>
                             <div class="feature-three__title-box">
-                                <h3 class="feature-three__title">Monitoring</h3>
+                                <h3 class="feature-three__title">
+                                Monitoring</h3>
                             </div>
                             <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('monitoring') }}">See more</a>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
+            </div>
+               
         </section>
                 <!-- <div class="col-xl-4 col-lg-12">
                         <div class="feature-three__single">
@@ -336,7 +343,7 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/causes-1-1.jpg') }}" alt="">
                                 <div class="causes-one__cat">
                                     <p>Education</p>
                                 </div>
@@ -367,7 +374,7 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/causes-1-2.jpg') }}" alt="">
                                 <div class="causes-one__cat">
                                     <p>Health</p>
                                 </div>
@@ -873,7 +880,7 @@
                             </div>
                             <p class="testimonial-one__text-1">Hear from our volunteers, partners, and beneficiaries about how Global Pathfields is making a real difference. 
                             From transforming communities to empowering individuals, our impact is felt far and wide.</p>
-                            <a href="{{ route('about') }}" class="thm-btn testimonial-one__btn">all testimonials</a>
+                            <a href="{{ route('about') }}" class="thm-btn testimonial-one__btn">Discover More</a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -981,7 +988,7 @@
                                         <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
                                         </div>
                                         <div class="testimonial-one__client-img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-4.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Dr. Andreas Brandner</h3>
@@ -1002,7 +1009,7 @@
                                         <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
                                         </div>
                                         <div class="testimonial-one__client-img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-5.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Dr. Gaurav Arya</h3>
@@ -1022,7 +1029,7 @@
                                         <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
                                         </div>
                                         <div class="testimonial-one__client-img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-6.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Chandan Verma</h3>
@@ -1042,7 +1049,7 @@
                                         <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
                                         </div>
                                         <div class="testimonial-one__client-img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-7.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Deep Chandra Papnoi</h3>
@@ -1062,7 +1069,7 @@
                                         <div class="testimonial-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/testimonial-one-shape-1.png') }}')">
                                         </div>
                                         <div class="testimonial-one__client-img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-8.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Manish Kumar</h3>

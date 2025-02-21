@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Contact';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/contact-header-bg.jpg';
     $title='Home';
     $title2 = 'Contact';
     $subTitle = 'Contact';

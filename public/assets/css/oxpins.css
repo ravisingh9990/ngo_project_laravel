@@ -10400,8 +10400,10 @@ body.locked .page-wrapper {
   right: 0;
   border-radius: var(--oxpins-bdr-radius);
   content: "";
-  background: rgb(250, 211, 91);
-  background: linear-gradient(180deg, rgba(250, 211, 91, 0.0928746499) 53%, rgb(250, 211, 91) 100%);
+  /* background: rgb(250, 211, 91); */
+  background: var(--oxpins-base);
+  /* background: linear-gradient(180deg, rgba(250, 211, 91, 0.0928746499) 53%, rgb(250, 211, 91) 100%); */
+  background: linear-gradient(180deg, rgba(40, 71, 226, 0.0928746499) 53%, rgb(40, 71, 226) 100%);
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   -o-transition: all 700ms ease;

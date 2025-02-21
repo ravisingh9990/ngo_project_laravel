@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Monitoring';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/resources-header-bg.jpg';
     $title='Home';
     $title2 = 'Monitoring';
     $subTitle = 'Monitoring, Evaluation and Impact Assessment';
