@@ -142,16 +142,17 @@
                                     <img src="{{ asset('assets/images/resources/about-one-img-1.jpg') }}" alt="">
                                 </div>
                                 <div class="about-one__img-border"></div>
-                                <div class="about-one__curved-circle-box">
+                                <!-- <div class="about-one__curved-circle-box">
                                     <div class="curved-circle">
                                         <span class="curved-circle--item">
                                             Global Pathfields
                                         </span>
-                                    </div><!-- /.curved-circle -->
+                                    </div>
                                     <div class="about-one__curved-circle-icon">
                                         <img src="{{ asset('assets/images/icon/curved-circle-icon.png') }}" alt="">
                                     </div>
-                                </div>
+                                </div> -->
+                                <!-- /.curved-circle -->
                                 <div class="about-one__shape-2 zoom-fade">
                                     <img src="{{ asset('assets/images/shapes/about-one-shape-2.png') }}" alt="">
                                 </div>

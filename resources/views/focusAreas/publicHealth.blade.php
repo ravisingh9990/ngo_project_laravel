@@ -213,7 +213,7 @@
                             <!-- Child Rights Details end -->
 
                             <!-- Foucs Areas start  -->
-                            <div class="container" style="padding-top: 50px;">
+                            <div class="container" style="padding-top: 50px; background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
                             <div class="section-title text-center">
                                 <span class="section-title__tagline">Key Focus Areas</span>
                                 <h2 class="section-title__title">Our Foucs Towards Child Rights and Education</h2>
@@ -302,7 +302,7 @@
                         <!-- major projects and partners start  -->
                         
                          <!--Feature Two Start-->
-                            <section class="feature-two">
+                            <section class="feature-two" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
                                 <div class="container">
                                         <div class="section-title text-center">
                                         <span class="section-title__tagline">Major Projects</span>

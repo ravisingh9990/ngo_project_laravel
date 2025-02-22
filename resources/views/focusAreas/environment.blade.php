@@ -197,7 +197,7 @@
                             <!-- Child Rights Details end -->
 
                             <!-- Foucs Areas start  -->
-                            <div class="container" style="padding-top: 50px;">
+                            <div class="container" style="padding-top: 50px; background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
                             <div class="section-title text-center">
                                 <span class="section-title__tagline">Key Focus Areas</span>
                                 <h2 class="section-title__title">Our Foucs Towards Environment and Sustainability</h2>

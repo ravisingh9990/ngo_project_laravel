@@ -11,7 +11,7 @@
 @section('content')
 
 <!--Gallery Page Start-->
-<section class="gallery-page">
+<section class="gallery-page" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
     <div class="container">
     <div class="section-title text-center">
             <span class="section-title__tagline">Our Partners</span>

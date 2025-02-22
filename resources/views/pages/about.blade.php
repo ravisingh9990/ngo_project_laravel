@@ -73,7 +73,7 @@
 
         <!--Testimonial Two Start-->
         
-        <section class="team-one">
+        <section class="team-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
             <div class="container">
                         <div class="section-title text-center">
                         <span class="section-title__tagline">Meet Our Leadership Team</span>
@@ -224,7 +224,7 @@
         <x-coreValues/>        
         <!--Become Volunteer One End-->
 
-        <section class="team-one">
+        <section class="team-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline">Our Presence Map</span>

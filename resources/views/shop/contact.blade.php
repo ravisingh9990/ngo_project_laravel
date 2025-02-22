@@ -11,7 +11,7 @@
 @section('content')
 
 <!--Contact Three Start-->
-<section class="contact-three">
+<section class="contact-three" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
     <div class="contact-three-shape" style="background-image:url('{{ asset('assets/images/shapes/contact-three-shape.png') }}')"></div>
     <div class="container">
         <div class="section-title text-center">
