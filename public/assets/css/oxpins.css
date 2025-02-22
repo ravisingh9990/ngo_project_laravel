@@ -7240,6 +7240,7 @@ body.locked .page-wrapper {
   display: block;
   min-height: 447px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .feature-three__img {
@@ -7266,6 +7267,7 @@ body.locked .page-wrapper {
   left: 90px;
   transform: rotate(-16deg);
   z-index: 2;
+  
 }
 
 .feature-three__title {

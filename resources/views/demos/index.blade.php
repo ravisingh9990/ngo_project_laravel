@@ -49,7 +49,7 @@
                             <div class="col-xl-12">
                                 <div class="main-slider-two__content">
                                     <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Education</h2>
                                     <div class="main-slider-two__btn-box">
                                         <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
                                     </div>
@@ -77,7 +77,7 @@
                             <div class="col-xl-12">
                                 <div class="main-slider-two__content">
                                     <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Education</h2>
                                     <div class="main-slider-two__btn-box">
                                         <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
                                     </div>
@@ -105,7 +105,7 @@
                             <div class="col-xl-12">
                                 <div class="main-slider-two__content">
                                     <p class="main-slider-two__sub-title">Helping Today. Helping Tommorow</p>
-                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Eductions</h2>
+                                    <h2 class="main-slider-two__title">Give Child the <br> Gift of Education</h2>
                                     <div class="main-slider-two__btn-box">
                                         <a href="{{ route('about') }}" class="thm-btn main-slider-two__btn"> Discover more</a>
                                     </div>
@@ -206,27 +206,30 @@
 
         <!--Focus Areas Start-->
       <!--Feature Three Start-->
-      <section class="feature-three">
+      <section class="feature-three" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline">What We Do?</span>
                     <h2 class="section-title__title">Our Areas of Impact</h2>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="feature-three__single">
+                    <div class="col-xl-4 col-lg-12"> 
+                        <a href="{{ route('childRights') }}">
+                        <div class="feature-three__single" >
                             <div class="feature-three__img"
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-1.png') }}')">
                             </div>
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Child Rights</h3>
                             </div>
-                            <div class="feature-three__btn">
+                            <!-- <div class="feature-three__btn">
                                 <a href="{{ route('childRights') }}">See more</a>
-                            </div>
+                            </div> -->
                         </div>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-12">
+                        <a href="{{ route('socialDevelopment') }}">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')">
@@ -234,12 +237,14 @@
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Skill Development</h3>
                             </div>
-                            <div class="feature-three__btn feature-three__btn-two">
+                            <!-- <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('socialDevelopment') }}">See more</a>
-                            </div>
+                            </div> -->
                         </div>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-12">
+                        <a href="{{ route('publicHealth') }}">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')">
@@ -247,14 +252,16 @@
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Public Health</h3>
                             </div>
-                            <div class="feature-three__btn feature-three__btn-two">
+                            <!-- <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('publicHealth') }}">See more</a>
-                            </div>
+                            </div> -->
                         </div>
+                        </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="display: flex; justify-content: center;">
                     <div class="col-xl-4 col-lg-12">
+                        <a href="{{ route('environment') }}">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-4.png') }}')">
@@ -262,12 +269,14 @@
                             <div class="feature-three__title-box">
                                 <h3 class="feature-three__title">Environment</h3>
                             </div>
-                            <div class="feature-three__btn">
+                            <!-- <div class="feature-three__btn">
                                 <a href="{{ route('environment') }}">See more</a>
-                            </div>
+                            </div> -->
                         </div>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-12">
+                        <a href="{{ route('monitoring') }}">
                         <div class="feature-three__single">
                             <div class="feature-three__img"
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-5.png') }}')">
@@ -276,10 +285,11 @@
                                 <h3 class="feature-three__title">
                                 Monitoring</h3>
                             </div>
-                            <div class="feature-three__btn feature-three__btn-two">
+                            <!-- <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('monitoring') }}">See more</a>
-                            </div>
+                            </div> -->
                         </div>
+                        </a>
                     </div>
                     
                 </div>
@@ -654,7 +664,7 @@
         <!--Events One End-->
 
         <!--Feature One Start-->
-        <section class="feature-one">
+        <section class="feature-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6  wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
@@ -1096,7 +1106,7 @@
             <div class="gallery-one__top">
                 <h3 class="gallery-one__top-title">Our photo gallery</h3>
             </div>
-            <div class="gallery-one__bottom">
+            <div class="gallery-one__bottom" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
                 <div class="gallery-one__container">
                     <ul class="list-unstyled gallery-one__list">
                         <li class="gallery-one__single wow fadeInUp" data-wow-delay="100ms">
