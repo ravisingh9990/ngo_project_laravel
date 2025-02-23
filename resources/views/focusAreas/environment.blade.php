@@ -42,13 +42,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-1.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-1.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment1.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-1.jpg" class="img-popup"></a> -->
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -57,13 +53,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-2.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-2.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment2.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-2.jpg" class="img-popup"></a> -->
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -72,13 +64,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-3.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-3.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment3.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-3.jpg" class="img-popup"></a> -->
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -87,13 +75,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-4.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-4.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment4.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-4.jpg" class="img-popup"></a> -->
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -102,13 +86,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-5.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-5.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment5.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-5.jpg" class="img-popup"></a> -->
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -117,13 +97,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-6.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-6.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment6.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-6.jpg" class="img-popup"></a> -->
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -132,13 +108,10 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-7.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-7.jpg" class="img-popup"></a>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment7.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-7.jpg" class="img-popup"></a> -->
                                             <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -147,13 +120,10 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-8.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-8.jpg" class="img-popup"></a>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment8.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-8.jpg" class="img-popup"></a> -->
                                             <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -162,13 +132,9 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/gallery/gallery-page-1-9.jpg') }}" alt="">
-                                            <a href="assets/images/gallery/gallery-page-1-9.jpg" class="img-popup"></a>
-                                            <!-- /.img-popup -->
-                                            <div class="gallery-page__content">
-                                                <p class="gallery-page__sub-title">Charity</p>
-                                                <h5 class="gallery-page__title"><a href="{{ route('gallery') }}">Education</a></h5>
-                                            </div>
+                                            <img src="{{ asset('assets/images/focus-areas/environment/environment9.jpg') }}" alt="">
+                                            <!-- <a href="assets/images/gallery/gallery-page-1-9.jpg" class="img-popup"></a> -->
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +163,7 @@
                             <!-- Child Rights Details end -->
 
                             <!-- Foucs Areas start  -->
-                            <div class="container" style="padding-top: 50px;">
+                            <div class="container" style="padding-top: 50px; ">
                             <div class="section-title text-center">
                                 <span class="section-title__tagline">Key Focus Areas</span>
                                 <h2 class="section-title__title">Our Foucs Towards Environment and Sustainability</h2>
