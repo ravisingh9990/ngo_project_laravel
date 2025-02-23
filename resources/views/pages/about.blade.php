@@ -61,7 +61,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="about-four__btn-box">
+                            <div class="about-four__btn-box" style="margin-bottom: 50px;">
                                 <a href="{{ route('about') }}" class="thm-btn about-four__btn">Discover More</a>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
 
         <!--Testimonial Two Start-->
         
-        <section class="team-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+        <section class="team-one" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
                         <div class="section-title text-center">
                         <span class="section-title__tagline">Meet Our Leadership Team</span>
@@ -224,7 +224,7 @@
         <x-coreValues/>        
         <!--Become Volunteer One End-->
 
-        <section class="team-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+        <section class="team-one" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline">Our Presence Map</span>

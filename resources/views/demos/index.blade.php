@@ -131,7 +131,7 @@
         <!--About One Start-->
         <section class="about-one">
             <div class="about-one__shape-box-1">
-                <div class="about-one__shape-1" style="background-image:url('{{ asset('assets/images/shapes/about-one-shape-1.png') }}')"></div>
+                <div class="about-one__shape-1" style="background-color:rgb(235, 230, 230)"></div>
             </div>
             <div class="container">
                 <div class="row">
@@ -207,9 +207,9 @@
 
         <!--Focus Areas Start-->
       <!--Feature Three Start-->
-      <section class="feature-three" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+      <section class="feature-three" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
-                <div class="section-title text-center">
+                <div class="section-title text-center" style="padding-top: 50px;">
                     <span class="section-title__tagline">What We Do?</span>
                     <h2 class="section-title__title">Our Areas of Impact</h2>
                 </div>
@@ -236,7 +236,7 @@
                                 style="background-image:url('{{ asset('assets/images/resources/feature-3-2.png') }}')">
                             </div>
                             <div class="feature-three__title-box">
-                                <h3 class="feature-three__title">Skill Development</h3>
+                                <h3 class="feature-three__title">Skill <br> Development</h3>
                             </div>
                             <!-- <div class="feature-three__btn feature-three__btn-two">
                                 <a href="{{ route('socialDevelopment') }}">See more</a>
@@ -665,7 +665,7 @@
         <!--Events One End-->
 
         <!--Feature One Start-->
-        <section class="feature-one" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+        <section class="feature-one" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6  wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
@@ -1107,7 +1107,7 @@
             <div class="gallery-one__top">
                 <h3 class="gallery-one__top-title">Our photo gallery</h3>
             </div>
-            <div class="gallery-one__bottom" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+            <div class="gallery-one__bottom" style="background-color:rgba(243, 243, 243, 0.78)">
                 <div class="gallery-one__container">
                     <ul class="list-unstyled gallery-one__list">
                         <li class="gallery-one__single wow fadeInUp" data-wow-delay="100ms">

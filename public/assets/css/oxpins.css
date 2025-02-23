@@ -7264,14 +7264,14 @@ body.locked .page-wrapper {
 .feature-three__title-box {
   position: absolute;
   bottom: 110px;
-  left: 90px;
+  left: 40px;
   transform: rotate(-16deg);
   z-index: 2;
   
 }
 
 .feature-three__title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 900;
   letter-spacing: -0.04em;
   line-height: 60px;

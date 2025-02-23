@@ -11,7 +11,7 @@
 @section('content')
 
 <!--Events Page Start-->
-<section class="events-page" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+<section class="events-page" style="background-color:rgba(243, 243, 243, 0.78)">
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">Explore Our Events</span>

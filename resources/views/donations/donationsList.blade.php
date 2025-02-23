@@ -11,7 +11,7 @@
 @section('content')
 
         <!--Donations List Start-->
-        <section class="donations-list" style="background-image:url('{{ asset('assets/images/shapes/events-one-shape-1.png') }}')">
+        <section class="donations-list" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
             <div class="section-title text-center">
             <span class="section-title__tagline">Explore Our Resources</span>
