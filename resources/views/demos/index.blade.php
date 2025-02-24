@@ -205,9 +205,129 @@
         </section>
         <!--About One End-->
 
+                        <!--Focus Areas Start-->
+                        <section class="feature-three" style="background-color:rgba(243, 243, 243, 0.78)">
+            <div class="container">
+                <div class="section-title text-center" style="padding-top: 50px;">
+            <span class="section-title__tagline">What We Do?</span>
+            <h2 class="section-title__title">Our Areas of Impact</h2>
+                </div>
+                <div class="donation-carousel thm-owl__carousel owl-theme owl-carousel carousel-dot-style"
+                    data-owl-options='{
+                    "items": 3,
+                    "margin": 30,
+                    "smartSpeed": 700,
+                    "loop":true,
+                    "autoplay": 6000,
+                    "nav":false,
+                    "dots":true,
+                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                    "responsive":{
+                        "0":{
+                            "items":1
+                        },
+                        "768":{
+                            "items":2
+                        },
+                        "992":{
+                            "items": 3
+                        }
+                    }
+                }'>
+                    
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-1.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Child Rights</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('childRights') }}">Child Rights and Education</a>
+                                </h3>
+                                <p class="causes-one__text">Global Pathfields employs a rights-based approach to improve the lives of vulnerable children and communities in India.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-2.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Skills Development</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('socialDevelopment') }}">Skill, Employability and Inclusive Economic Development (SEED)</a>
+                                </h3>
+                                <p class="causes-one__text">Concurrent monitoring of 22,000 Handloom Weavers in six northeast states (Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Sikkim and Tripura).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Public Health</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('publicHealth') }}">Health, Nutrition and Water, Sanitation & Hygiene (WASH)</a>
+                                </h3>
+                                <p class="causes-one__text">Health, nutrition, and WASH (Water, Sanitation, and Hygiene) are essential for a quality life, yet many marginalized groups in India, especially women, children, and girls,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-4.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Environment</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('environment') }}">Environment and Sustainability</a>
+                                </h3>
+                                <p class="causes-one__text">Global Pathfields is a research and action organisation works on environmental and sustainability issues. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                    <!--Causes One Single Start-->
+                    <div class="item">
+                        <div class="causes-one__single">
+                            <div class="causes-one__img">
+                                <img src="{{ asset('assets/images/resources/causes-1-5.jpg') }}" alt="">
+                                <div class="causes-one__cat">
+                                    <p>Monitoring</p>
+                                </div>
+                            </div>
+                            <div class="causes-one__content">
+                                <h3 class="causes-one__title"><a href="{{ route('monitoring') }}">Monitoring, Evaluation and Impact Assessment</a>
+                                </h3>
+                                <p class="causes-one__text">For us, Monitoring, Evaluation and Impact Assessment is a cross-cutting service that strengthens the importance of knowing the impact of our work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Causes One Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Focus Areas End-->
+
         <!--Focus Areas Start-->
       <!--Feature Three Start-->
-      <section class="feature-three" style="background-color:rgba(243, 243, 243, 0.78)">
+        <section class="feature-three" style="background-color:rgba(243, 243, 243, 0.78)">
             <div class="container">
                 <div class="section-title text-center" style="padding-top: 50px;">
                     <span class="section-title__tagline">What We Do?</span>
@@ -297,22 +417,7 @@
             </div>
                
         </section>
-                <!-- <div class="col-xl-4 col-lg-12">
-                        <div class="feature-three__single">
-                            <div class="feature-three__img"
-                                style="background-image:url('{{ asset('assets/images/resources/feature-3-3.png') }}')">
-                            </div>
-                            <div class="feature-three__title-box">
-                                <h3 class="feature-three__title">Vision</h3>
-                            </div>
-                            <div class="feature-three__btn feature-three__btn-two">
-                                <a href="{{ route('about') }}">See more</a>
-                            </div>
-                        </div>
-                    </div> -->
-                
             
-        
         <!--Feature Three End-->
         <!--Focus Areas End-->
 

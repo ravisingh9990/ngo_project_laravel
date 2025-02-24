@@ -42,7 +42,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement1.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development1.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-1.jpg" class="img-popup"></a> -->
                                            
                                         </div>
@@ -53,7 +53,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement2.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development2.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-2.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -64,7 +64,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development3.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-3.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -75,7 +75,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement4.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development4.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-4.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -86,7 +86,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement5.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development5.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-5.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -97,7 +97,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement6.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development6.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-6.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -108,7 +108,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement7.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development7.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-7.jpg" class="img-popup"></a> -->
                                             
                                         </div>
@@ -119,7 +119,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement8.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development8.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-8.jpg" class="img-popup"></a> -->
                                           
                                         </div>
@@ -130,7 +130,7 @@
                                 <div class="item">
                                     <div class="gallery-page__single">
                                         <div class="gallery-page__img">
-                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-developement9.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/focus-areas/social-development/social-development9.jpg') }}" alt="">
                                             <!-- <a href="assets/images/gallery/gallery-page-1-9.jpg" class="img-popup"></a> -->
                                            
                                         </div>

@@ -7263,14 +7263,18 @@ body.locked .page-wrapper {
 
 .feature-three__title-box {
   position: absolute;
-  bottom: 110px;
-  left: 40px;
-  transform: rotate(-16deg);
+  bottom: 75px;
+  left: 30px;
+  /* background-color:  #f9a2305f; */
+  background-color:  #02366075;
+  border-radius: 5px;
+  /* transform: rotate(-16deg); */
   z-index: 2;
   
 }
 
 .feature-three__title {
+  padding: 10px;
   font-size: 50px;
   font-weight: 900;
   letter-spacing: -0.04em;

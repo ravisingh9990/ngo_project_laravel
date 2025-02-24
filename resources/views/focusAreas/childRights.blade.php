@@ -176,8 +176,9 @@
                                                     <div class="inner">
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                             tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    </div><!-- /.inner -->
+                                                    </div>
                                                 </div>
+                                                <!-- /.inner -->
                                             </div>
                                             <div class="accrodion">
                                                 <div class="accrodion-title">
