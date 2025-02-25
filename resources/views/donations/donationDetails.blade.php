@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Donation Details';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $headTitle='Empowering Children';
+    $img='assets/images/backgrounds/doantion-detail1.jpg';
     $title='Home';
-    $title2 = 'Donations details';
-    $subTitle = 'Donations details';
+    $title2 = 'Empowering Children Through Education';
+    $subTitle = 'Empowering Children Through Education';
 @endphp
 
 @section('content')
@@ -14,26 +14,48 @@
         <section class="donation-details">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-7">
+                    <div class="col-xl-12 col-lg-12">
                         <div class="donation-details__left">
                             <div class="donation-details__top">
                                 <div class="donation-details__img">
-                                    <img src="{{ asset('assets/images/resources/donation-details-img-1.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/images/resources/donation-detail1.jpg') }}" alt="">
                                     <div class="donation-details__date">
-                                        <p>Medical</p>
+                                        <p>Education</p>
                                     </div>
                                 </div>
                                 <div class="donation-details__content">
-                                    <h3 class="donation-details__title">Let’s education for children get good life</h3>
-                                    <p class="donation-details__text">Lorem ipsum dolor sit amet, cibo mundi ea duo, vim
-                                        exerci phaedrum. There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have alteration in some injected or words which don't look even
-                                        slightly believable. If you are going to use a passage of Lorem Ipsum, you need
-                                        to be sure there isn't anything embarrang hidden in the middle of text. All the
-                                        Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                                        necessary, making this the first true generator on the Internet. It uses a
-                                        dictionary of over 200 Latin words, combined with a handful of model sentence
-                                        structures, to generate Lorem Ipsum which looks reasonable. </p>
+                                    <h3 class="donation-details__title">Empower a Child Through Education</h3>
+                                    <p class="donation-details__text">At Global Pathfields, we believe that education is the key to breaking the cycle of poverty and empowering children to build a brighter future. Millions of children around the world lack access to quality education due to financial constraints, lack of resources, and social barriers. With your support, we can change this.
+
+                                        Why Your Donation Matters
+
+                                        Your contribution will help provide:
+
+                                        School Supplies – Books, stationery, uniforms, and other essential learning materials.
+
+                                        Scholarships – Financial assistance to underprivileged children to ensure uninterrupted education.
+
+                                        Infrastructure Development – Building and upgrading classrooms, libraries, and computer labs.
+
+                                        Teacher Training – Enhancing the quality of education through better-trained educators.
+
+                                        Nutritional Support – Providing meals to ensure children stay healthy and focused on learning.
+
+                                        How You Can Help
+
+                                        One-Time Donation: Any amount you contribute will make a difference in a child's life.
+
+                                        Monthly Sponsorship: Support a child’s education with a recurring monthly donation.
+
+                                        Corporate Giving: Businesses can partner with us to fund educational programs and infrastructure projects.
+
+                                        Fundraising Campaigns: Start your own campaign and inspire others to support children's education.
+
+                                        Together, We Can Make a Difference
+
+                                        Your generosity has the power to transform lives. By investing in a child's education today, you are shaping a better tomorrow.
+
+                                        Donate Now and be the change a child needs! </p>
                                 </div>
                             </div>
                             <div class="donation-details__donate">
@@ -68,123 +90,14 @@
                             </div>
                             <div class="donation-details__summary">
                                 <h3 class="donation-details__summary-title">Summary</h3>
-                                <p class="donation-details__summary-text-1">Lorem Ipsum has been the industry's standard
-                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type simen book.</p>
-                                <ul class="list-unstyled donation-details__summary-list">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fa fa-check"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Nsectetur cing do not elit.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fa fa-check"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Suspe ndisse suscipit sagittis in leo.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fa fa-check"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Entum estibulum dignissim lipsm posuere.</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <p class="donation-details__summary-text-2">Lorem Ipsum is simply dummy text of the
-                                    printing and typesetting industry. orem Ipsum has been the industry's standard dummy
-                                    text ever since the when an unknown printer took a galley of type and scrambled it
-                                    to make a type specimen book.</p>
+                                <p class="donation-details__summary-text-1"> 
+
+Global Pathfields is dedicated to empowering children through education by addressing financial constraints, lack of resources, and social barriers. Donations help provide school supplies, scholarships, improved educational infrastructure, teacher training, and nutritional support. Supporters can contribute through one-time donations, monthly sponsorships, corporate giving, or fundraising campaigns. Every contribution plays a vital role in shaping a better future for underprivileged children. <span>Donate now to make a lasting impact!<span></p>
+                                
                             </div>
-                            <div class="donation-details__recent-donation">
-                                <h3 class="donation-details__recent-donation-title">Recent donors</h3>
-                                <div class="list-unstyled donation-details__recent-donation-inner">
-                                    <div class="donation-details__recent-donation-shape"
-                                        style="background-image:url('{{ asset('assets/images/shapes/recent-donation-shape-1.png') }}')">
-                                    </div>
-                                    <ul class="list-unstyled donation-details__recent-donation-list">
-                                        <li>
-                                            <div class="donation-details__recent-donation-img">
-                                                <img src="{{ asset('assets/images/resources/recent-donation-img-1.jpg') }}" alt="">
-                                            </div>
-                                            <div class="donation-details__recent-donation-content">
-                                                <p>Kevin martin</p>
-                                                <span>$25</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="donation-details__recent-donation-img">
-                                                <img src="{{ asset('assets/images/resources/recent-donation-img-2.jpg') }}" alt="">
-                                            </div>
-                                            <div class="donation-details__recent-donation-content">
-                                                <p>Jessica brown</p>
-                                                <span>$30</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="donation-details__recent-donation-img">
-                                                <img src="{{ asset('assets/images/resources/recent-donation-img-3.jpg') }}" alt="">
-                                            </div>
-                                            <div class="donation-details__recent-donation-content">
-                                                <p>Mike hardson</p>
-                                                <span>$100</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="donation-details__recent-donation-img">
-                                                <img src="{{ asset('assets/images/resources/recent-donation-img-4.jpg') }}" alt="">
-                                            </div>
-                                            <div class="donation-details__recent-donation-content">
-                                                <p>Christine eve</p>
-                                                <span>$250</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="donation-details__recent-donation-img">
-                                                <img src="{{ asset('assets/images/resources/recent-donation-img-5.jpg') }}" alt="">
-                                            </div>
-                                            <div class="donation-details__recent-donation-content">
-                                                <p>David cooper</p>
-                                                <span>$60</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="comment-one">
-                                <h3 class="comment-one__title">2 comments</h3>
-                                <div class="comment-one__single">
-                                    <div class="comment-one__image">
-                                        <img src="{{ asset('assets/images/blog/comment-1-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="comment-one__content">
-                                        <h3>Kevin martin</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic
-                                            typesetting unchanged. It was popularised in the sheets containing lorem
-                                            ipsum is simply free text.</p>
-                                        <a href="{{ route('newsDetails') }}" class="thm-btn comment-one__btn">Reply</a>
-                                    </div>
-                                </div>
-                                <div class="comment-one__single">
-                                    <div class="comment-one__image">
-                                        <img src="{{ asset('assets/images/blog/comment-1-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="comment-one__content">
-                                        <h3>Sarah albert</h3>
-                                        <p>It has survived not only five centuries, but also the leap into electronic
-                                            typesetting unchanged. It was popularised in the sheets containing lorem
-                                            ipsum is simply free text.</p>
-                                        <a href="{{ route('newsDetails') }}" class="thm-btn comment-one__btn">Reply</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comment-form">
+                            
+                           
+                            <div class="comment-form" style="padding-top: 30px;">
                                 <h3 class="comment-form__title">Leave a comment</h3>
                                 <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated"
                                     novalidate="novalidate">
@@ -215,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5">
+                    <!-- <div class="col-xl-4 col-lg-5">
                         <div class="donation-details__sidebar">
                             <div class="donation-details__organizer">
                                 <div class="sidebar-shape-1"
@@ -224,9 +137,9 @@
                                     <img src="{{ asset('assets/images/resources/donation-details-organizer-img.jpg') }}" alt="">
                                 </div>
                                 <div class="donation-details__organizer-content">
-                                    <p class="donation-details__organizer-date">Created 20 april, 2022</p>
+                                    <p class="donation-details__organizer-date">Created 20 april, 2024</p>
                                     <p class="donation-details__organizer-title">Organizer:</p>
-                                    <p class="donation-details__organizer-name">Jessica smith</p>
+                                    <p class="donation-details__organizer-name">Global Pathfields</p>
                                     <ul class="list-unstyled donation-details__organizer-list">
                                         <li>
                                             <div class="icon">
@@ -241,7 +154,7 @@
                                                 <span class="fas fa-map-marker-alt"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Westwood, Canada</p>
+                                                <p>Delhi, India</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -303,7 +216,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

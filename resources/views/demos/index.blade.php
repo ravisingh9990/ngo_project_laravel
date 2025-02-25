@@ -27,23 +27,18 @@
         "prevEl": "#main-slider__swiper-button-prev"
         },
         "autoplay": {
-        "delay": 5000
+        "delay": 50000
         }}'>
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
                     <div class="video-layer">
                         <video autoplay muted loop playsinline>
-                            <source src="{{ asset('assets/videos/video1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('assets/videos/video2.mp4') }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    <!-- <div class="main-slider-two-shape-1">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                    </div>
-                    <div class="main-slider-two-shape-2">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                    </div> -->
+                   
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
@@ -62,16 +57,11 @@
                 <div class="swiper-slide">
                     <div class="video-layer">
                         <video autoplay muted loop playsinline>
-                            <source src="{{ asset('assets/videos/video2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('assets/videos/video1.mp4') }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    <!-- <div class="main-slider-two-shape-1">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                    </div>
-                    <div class="main-slider-two-shape-2">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                    </div> -->
+                    
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
@@ -94,12 +84,7 @@
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    <!-- <div class="main-slider-two-shape-1">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-1.png') }}" alt="">
-                    </div>
-                    <div class="main-slider-two-shape-2">
-                        <img src="{{ asset('assets/images/shapes/main-slider-two-shape-2.png') }}" alt="">
-                    </div> -->
+                   
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
@@ -142,16 +127,7 @@
                                     <img src="{{ asset('assets/images/resources/about-one-img-1.jpg') }}" alt="">
                                 </div>
                                 <div class="about-one__img-border"></div>
-                                <!-- <div class="about-one__curved-circle-box">
-                                    <div class="curved-circle">
-                                        <span class="curved-circle--item">
-                                            Global Pathfields
-                                        </span>
-                                    </div>
-                                    <div class="about-one__curved-circle-icon">
-                                        <img src="{{ asset('assets/images/icon/curved-circle-icon.png') }}" alt="">
-                                    </div>
-                                </div> -->
+                                
                                 <!-- /.curved-circle -->
                                 <div class="about-one__shape-2 zoom-fade">
                                     <img src="{{ asset('assets/images/shapes/about-one-shape-2.png') }}" alt="">
@@ -239,15 +215,15 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-1.jpg') }}" alt="">
-                                <div class="causes-one__cat">
+                                <img src="{{ asset('assets/images/resources/feature-3-1.png') }}" alt="">
+                                <!-- <div class="causes-one__cat">
                                     <p>Child Rights</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="causes-one__content">
                                 <h3 class="causes-one__title"><a href="{{ route('childRights') }}">Child Rights and Education</a>
                                 </h3>
-                                <p class="causes-one__text">Global Pathfields employs a rights-based approach to improve the lives of vulnerable children and communities in India.</p>
+                                <p class="causes-one__text">Global Pathfields employs a rights-based approach to improve the lives of vulnerable children and communities in India. Focusing on education, healthcare, nutrition, child protection, and community development</p>
                             </div>
                         </div>
                     </div>
@@ -256,15 +232,15 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-2.jpg') }}" alt="">
-                                <div class="causes-one__cat">
+                                <img src="{{ asset('assets/images/resources/feature-3-2.png') }}" alt="">
+                                <!-- <div class="causes-one__cat">
                                     <p>Skills Development</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="causes-one__content">
                                 <h3 class="causes-one__title"><a href="{{ route('socialDevelopment') }}">Skill, Employability and Inclusive Economic Development (SEED)</a>
                                 </h3>
-                                <p class="causes-one__text">Concurrent monitoring of 22,000 Handloom Weavers in six northeast states (Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Sikkim and Tripura).</p>
+                                <p class="causes-one__text">Concurrent monitoring of 22,000 Handloom Weavers in six northeast states</p>
                             </div>
                         </div>
                     </div>
@@ -273,15 +249,15 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-3.jpg') }}" alt="">
-                                <div class="causes-one__cat">
+                                <img src="{{ asset('assets/images/resources/feature-3-3.png') }}" alt="">
+                                <!-- <div class="causes-one__cat">
                                     <p>Public Health</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="causes-one__content">
                                 <h3 class="causes-one__title"><a href="{{ route('publicHealth') }}">Health, Nutrition and Water, Sanitation & Hygiene (WASH)</a>
                                 </h3>
-                                <p class="causes-one__text">Health, nutrition, and WASH (Water, Sanitation, and Hygiene) are essential for a quality life, yet many marginalized groups in India, especially women, children, and girls,</p>
+                                <p class="causes-one__text">Health, nutrition, and WASH (Water, Sanitation, and Hygiene)</p>
                             </div>
                         </div>
                     </div>
@@ -290,10 +266,10 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-4.jpg') }}" alt="">
-                                <div class="causes-one__cat">
+                                <img src="{{ asset('assets/images/resources/feature-3-4.png') }}" alt="">
+                                <!-- <div class="causes-one__cat">
                                     <p>Environment</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="causes-one__content">
                                 <h3 class="causes-one__title"><a href="{{ route('environment') }}">Environment and Sustainability</a>
@@ -307,15 +283,15 @@
                     <div class="item">
                         <div class="causes-one__single">
                             <div class="causes-one__img">
-                                <img src="{{ asset('assets/images/resources/causes-1-5.jpg') }}" alt="">
-                                <div class="causes-one__cat">
+                                <img src="{{ asset('assets/images/resources/feature-3-5.png') }}" alt="">
+                                <!-- <div class="causes-one__cat">
                                     <p>Monitoring</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="causes-one__content">
                                 <h3 class="causes-one__title"><a href="{{ route('monitoring') }}">Monitoring, Evaluation and Impact Assessment</a>
                                 </h3>
-                                <p class="causes-one__text">For us, Monitoring, Evaluation and Impact Assessment is a cross-cutting service that strengthens the importance of knowing the impact of our work.</p>
+                                <p class="causes-one__text">For us, Monitoring, Evaluation and Impact Assessment is a cross-cutting service that strengthens the </p>
                             </div>
                         </div>
                     </div>
@@ -326,6 +302,10 @@
         <!--Focus Areas End-->
 
         
+         <!--Become Volunteer One Start-->
+         <x-becomeVolunteer/>
+        <!--Become Volunteer One End-->
+
 
         <!--Causes One Start-->
         <!-- <section class="causes-one">
@@ -525,9 +505,7 @@
         </section> -->
         <!--Causes One End-->
 
-        <!--Become Volunteer One Start-->
-        <x-becomeVolunteer/>
-        <!--Become Volunteer One End-->
+       
 
         <!--Events One Start-->
         <section class="events-one">
@@ -994,7 +972,7 @@
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Alok Kumar</h3>
-                                            <p class="testimonial-one__client-sub-title">Head - Corporate Social Responsibility (CSR)
+                                            <p class="testimonial-one__client-sub-title">Head - CSR, 
                                             Adventz Group (Dr. K.K Birla Group of Companies)</p>
                                         </div>
                                         <div class="testimonial-one__quote">
@@ -1014,7 +992,7 @@
                                         </div>
                                         <div class="testimonial-one__client-info">
                                             <h3 class="testimonial-one__client-name">Dr. Andreas Brandner</h3>
-                                            <p class="testimonial-one__client-sub-title">Managing Director
+                                            <p class="testimonial-one__client-sub-title">M D
                                             KMA Knowledge Management Associates GmbH
                                             Gersthofer Straße 162, 1180 Vienna</p>
                                         </div>

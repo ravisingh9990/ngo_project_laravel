@@ -4121,11 +4121,12 @@ body.locked .page-wrapper {
 }
 
 .testimonial-one__client-sub-title {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--oxpins-primary);
-  font-weight: 700;
+  font-weight: 400;
   font-family: var(--oxpins-font-three);
-  line-height: 24px;
+  line-height: 20px;
+  padding-bottom: 50px;
 }
 
 .testimonial-one__quote {
@@ -4139,6 +4140,8 @@ body.locked .page-wrapper {
   position: absolute;
   top: -35px;
   right: 50px;
+  /* opacity: 0.3; */
+  z-index: -1;
 }
 
 .testimonial-one__quote span {
