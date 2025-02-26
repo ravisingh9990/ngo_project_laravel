@@ -8,24 +8,24 @@ class FocusAreasController extends Controller
 {
     public function childRights()
     {
-        return view('FocusAreas/childRights');
+        return view('focusAreas/childRights');
     }
 
     public function socialDevelopment()
     {
-        return view('FocusAreas/socialDevelopment');
+        return view('focusAreas/socialDevelopment');
     }
     public function publicHealth()
     {
-        return view('FocusAreas/publicHealth');
+        return view('focusAreas/publicHealth');
     }
     public function environment()
     {
-        return view('FocusAreas/environment');
+        return view('focusAreas/environment');
     }
     public function monitoring()
     {
-        return view('FocusAreas/monitoring');
+        return view('focusAreas/monitoring');
     }
     
 }
