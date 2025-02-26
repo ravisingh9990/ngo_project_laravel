@@ -302,7 +302,7 @@
                                                 <div class="donations-list__right">
                                                     <div class="donations-list__content">
                                                         <p class="donations-list__text">End Line Evaluation of Support my School Campaign on Education and Waste Management, By</p>
-                                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Plan India and Coca Cola Foundation (2018)</a></h3>
+                                                        <h3 class="donations-list__title"><a href="#">Plan India and Coca Cola Foundation (2018)</a></h3>
                                                         <div class="donations-list__category">
                                                             <p>In, Uttar Pradesh, Karnataka, Tamil Nadu and Telangana</p>
                                                         </div>
@@ -339,7 +339,7 @@
                                                 <div class="donations-list__right">
                                                     <div class="donations-list__content">
                                                         <p class="donations-list__text">End line Evaluation of Child Labour Project.By</p>
-                                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Plan India and Coca Cola Foundation (2018)</a></h3>
+                                                        <h3 class="donations-list__title"><a href="#">Plan India and Coca Cola Foundation (2018)</a></h3>
                                                         <div class="donations-list__category">
                                                             <p>In Andhra Pradesh and Odisha</p>
                                                         </div>
