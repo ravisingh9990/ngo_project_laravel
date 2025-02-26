@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Empowering Children';
+    $headTitle='Healthcare for a Healthier Tomorrow';
     $img='assets/images/backgrounds/donation-detail1.jpg';
     $title='Home';
-    $title2 = 'Empowering Children Through Education';
-    $subTitle = 'Empowering Children Through Education';
+    $title2 = 'Healthcare for a Healthier Tomorrow';
+    $subTitle = 'Healthcare for a Healthier Tomorrow';
 @endphp
 
 @section('content')
@@ -20,42 +20,54 @@
                                 <div class="donation-details__img">
                                     <img src="{{ asset('assets/images/resources/donation-detail1.jpg') }}" alt="">
                                     <div class="donation-details__date">
-                                        <p>Education</p>
+                                        <p>Health</p>
                                     </div>
                                 </div>
                                 <div class="donation-details__content">
-                                    <h3 class="donation-details__title">Empower a Child Through Education</h3>
-                                    <p class="donation-details__text">At Global Pathfields, we believe that education is the key to breaking the cycle of poverty and empowering children to build a brighter future. Millions of children around the world lack access to quality education due to financial constraints, lack of resources, and social barriers. With your support, we can change this.
+                                    <h3 class="donation-details__title">Healthcare for a Healthier Tomorrow</h3>
 
-                                        Why Your Donation Matters
-
-                                        Your contribution will help provide:
-
-                                        School Supplies – Books, stationery, uniforms, and other essential learning materials.
-
-                                        Scholarships – Financial assistance to underprivileged children to ensure uninterrupted education.
-
-                                        Infrastructure Development – Building and upgrading classrooms, libraries, and computer labs.
-
-                                        Teacher Training – Enhancing the quality of education through better-trained educators.
-
-                                        Nutritional Support – Providing meals to ensure children stay healthy and focused on learning.
-
-                                        How You Can Help
-
-                                        One-Time Donation: Any amount you contribute will make a difference in a child's life.
-
-                                        Monthly Sponsorship: Support a child’s education with a recurring monthly donation.
-
-                                        Corporate Giving: Businesses can partner with us to fund educational programs and infrastructure projects.
-
-                                        Fundraising Campaigns: Start your own campaign and inspire others to support children's education.
-
-                                        Together, We Can Make a Difference
-
-                                        Your generosity has the power to transform lives. By investing in a child's education today, you are shaping a better tomorrow.
-
-                                        Donate Now and be the change a child needs! </p>
+                                    <h4>Overview</h4>
+                                    <br>
+                                    <p class="donation-details__text">Access to quality healthcare is a fundamental human right, yet millions of people around the world still struggle to receive essential medical services. At Global Pathfields, we are dedicated to bridging this gap by providing healthcare solutions to underserved communities. Through our various programs, we strive to create a healthier future for all, ensuring that no one is left behind when it comes to medical care.</p>
+                                    <br>
+                                    <h3>Our Mission and Approach</h3>
+                                    <br>
+                                    <p class="donation-details__text">At Global Pathfields, our mission is to improve healthcare accessibility, promote preventive care, and support medical initiatives that enhance community well-being. Our approach focuses on:</p>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text"><span>Free Medical Camps:</span> Providing essential health check-ups and treatments to underprivileged communities.</li>
+                                        <li class="donation-details__text"><span>Mobile Health Clinics:</span> Reaching remote areas with necessary medical assistance.</li>
+                                        <li class="donation-details__text"><span>Maternal and Child Health Programs:</span> Ensuring safe pregnancies, childbirth, and child nutrition.</li>
+                                        <li class="donation-details__text"><span>Health Awareness Campaigns:</span> Educating people about hygiene, disease prevention, and healthy living.</li>
+                                        <li class="donation-details__text"><span>Partnerships with Healthcare Providers:</span> Collaborating with hospitals and professionals to enhance medical outreach.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>Impact of Our Work</h3>
+                                    <br>
+                                    <h4>Through our dedicated efforts, Global Pathfields has made significant contributions to healthcare improvement:</h4>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text">Provided free medical check-ups and treatment to over 200,000 individuals.</li>
+                                        <li class="donation-details__text">Operated 50+ mobile health clinics, bringing healthcare to remote areas.</li>
+                                        <li class="donation-details__text">Supported maternal and child health programs, reducing infant and maternal mortality rates.</li>
+                                        <li class="donation-details__text">Conducted awareness campaigns reaching over 100,000 people on disease prevention and hygiene.</li>
+                                        <li class="donation-details__text">Partnered with various medical institutions to extend healthcare support.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>The Road Ahead</h3>
+                                    <br>
+                                    <h4>While we have made a meaningful impact, there is still much work to be done. Our future goals include:</h4>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text">Expanding our mobile health clinics to reach more rural and underserved areas.</li>
+                                        <li class="donation-details__text">Strengthening our maternal and child healthcare programs.</li>
+                                        <li class="donation-details__text">Enhancing preventive care initiatives to promote long-term community well-being.</li>
+                                        <li class="donation-details__text">Partnering with more medical professionals and organizations to extend healthcare services.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>Conclusion</h3>
+                                    <br>
+                                    <p class="donation-details__text">A healthier tomorrow begins with accessible and quality healthcare today. At Global Pathfields, we are committed to improving health services, educating communities, and ensuring medical aid reaches those in need. We invite individuals, organizations, and donors to join us in making healthcare a reality for everyone. Together, we can build a future where good health is within everyone’s reach.</p>
                                 </div>
                             </div>
                             <div class="donation-details__donate">
@@ -90,9 +102,7 @@
                             </div>
                             <div class="donation-details__summary">
                                 <h3 class="donation-details__summary-title">Summary</h3>
-                                <p class="donation-details__summary-text-1"> 
-
-Global Pathfields is dedicated to empowering children through education by addressing financial constraints, lack of resources, and social barriers. Donations help provide school supplies, scholarships, improved educational infrastructure, teacher training, and nutritional support. Supporters can contribute through one-time donations, monthly sponsorships, corporate giving, or fundraising campaigns. Every contribution plays a vital role in shaping a better future for underprivileged children. <span>Donate now to make a lasting impact!<span></p>
+                                <p class="donation-details__summary-text-1"> Global Pathfields is committed to improving healthcare accessibility through free medical camps, mobile health clinics, maternal and child health programs, and health awareness campaigns. The NGO has provided medical aid to 200,000+ individuals, operated 50+ mobile health clinics, and educated 100,000+ people on disease prevention. Moving forward, Global Pathfields aims to expand its initiatives, enhance preventive care, and strengthen partnerships to create a healthier tomorrow for all. Join us in this mission!</p>
                                 
                             </div>
                             

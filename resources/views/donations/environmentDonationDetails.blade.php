@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Empowering Children';
+    $headTitle='Protecting Our Planet for Future Generations';
     $img='assets/images/backgrounds/donation-detail1.jpg';
     $title='Home';
-    $title2 = 'Empowering Children Through Education';
-    $subTitle = 'Empowering Children Through Education';
+    $title2 = 'Protecting Our Planet for Future Generations';
+    $subTitle = 'Protecting Our Planet for Future Generations';
 @endphp
 
 @section('content')
@@ -20,42 +20,54 @@
                                 <div class="donation-details__img">
                                     <img src="{{ asset('assets/images/resources/donation-detail1.jpg') }}" alt="">
                                     <div class="donation-details__date">
-                                        <p>Education</p>
+                                        <p>Environment</p>
                                     </div>
                                 </div>
                                 <div class="donation-details__content">
-                                    <h3 class="donation-details__title">Empower a Child Through Education</h3>
-                                    <p class="donation-details__text">At Global Pathfields, we believe that education is the key to breaking the cycle of poverty and empowering children to build a brighter future. Millions of children around the world lack access to quality education due to financial constraints, lack of resources, and social barriers. With your support, we can change this.
-
-                                        Why Your Donation Matters
-
-                                        Your contribution will help provide:
-
-                                        School Supplies – Books, stationery, uniforms, and other essential learning materials.
-
-                                        Scholarships – Financial assistance to underprivileged children to ensure uninterrupted education.
-
-                                        Infrastructure Development – Building and upgrading classrooms, libraries, and computer labs.
-
-                                        Teacher Training – Enhancing the quality of education through better-trained educators.
-
-                                        Nutritional Support – Providing meals to ensure children stay healthy and focused on learning.
-
-                                        How You Can Help
-
-                                        One-Time Donation: Any amount you contribute will make a difference in a child's life.
-
-                                        Monthly Sponsorship: Support a child’s education with a recurring monthly donation.
-
-                                        Corporate Giving: Businesses can partner with us to fund educational programs and infrastructure projects.
-
-                                        Fundraising Campaigns: Start your own campaign and inspire others to support children's education.
-
-                                        Together, We Can Make a Difference
-
-                                        Your generosity has the power to transform lives. By investing in a child's education today, you are shaping a better tomorrow.
-
-                                        Donate Now and be the change a child needs! </p>
+                                    <h3 class="donation-details__title">Protecting Our Planet for Future Generations</h3>
+                                    <br>
+                                    <h4>Overview</h4>
+                                    <br>
+                                    <p class="donation-details__text">Our planet is at a crucial juncture where human activities are significantly impacting the environment. From deforestation to pollution and climate change, the need for sustainable practices has never been greater. At Global Pathfields, we recognize the urgency of protecting the Earth for future generations. Our NGO is committed to environmental sustainability through various initiatives that promote conservation, awareness, and action.</p>
+                                    <br>
+                                    <h4>Our Mission and Approach</h4>
+                                    <br>
+                                    <p class="donation-details__text">At Global Pathfields, our mission is to create a sustainable future by fostering environmental responsibility. We focus on community engagement, innovative solutions, and collaboration with key stakeholders to drive meaningful change. Our approach involves: </p>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text"><span>Reforestation and Afforestation:</span> Planting trees to restore ecosystems and combat climate change.</li>
+                                        <li class="donation-details__text"><span>Waste Management Initiatives:</span> Encouraging recycling and responsible disposal practices.</li>
+                                        <li class="donation-details__text"><span>Water Conservation Projects:</span> Ensuring clean and sustainable water resources.</li>
+                                        <li class="donation-details__text"><span>Renewable Energy Advocacy:</span> Promoting solar and wind energy adoption.</li>
+                                        <li class="donation-details__text"><span>Environmental Education:</span> Raising awareness about eco-friendly practices.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>Impact of Our Work</h3>
+                                    <br>
+                                    <h4>Over the years, Global Pathfields has made significant strides in protecting the environment:</h4>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text">Planted over 100,000 trees in deforested areas, enhancing biodiversity.</li>
+                                        <li class="donation-details__text">Conducted waste management drives in urban and rural areas, reducing plastic pollution.</li>
+                                        <li class="donation-details__text">Implemented water conservation projects benefiting over 10,000 people in water-scarce regions.</li>
+                                        <li class="donation-details__text">Partnered with local schools and communities to educate over 50,000 individuals on sustainable living practices.</li>
+                                        <li class="donation-details__text">Installed solar panels in underprivileged areas, reducing reliance on fossil fuels.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>The Road Ahead</h3>
+                                    <br>
+                                    <h4>While we have made remarkable progress, there is still much to be done. Global Pathfields is expanding its reach and impact by:</h4>
+                                    <br>
+                                    <ul>
+                                        <li class="donation-details__text">Developing more eco-friendly projects and engaging with more communities.</li>
+                                        <li class="donation-details__text">Strengthening partnerships with businesses and government bodies for sustainable development.</li>
+                                        <li class="donation-details__text">Increasing the scope of environmental education to empower the next generation with the knowledge and tools to protect the planet.</li>
+                                    </ul>
+                                    <br>
+                                    <h3>Conclusion</h3>
+                                    <br>
+                                    <p class="donation-details__text">Protecting our planet is a collective responsibility, and every action counts. Global Pathfields is dedicated to ensuring a greener, healthier Earth for future generations through our environmental initiatives. We invite individuals, organizations, and communities to join us in making a difference. Together, we can build a sustainable world where nature and humanity thrive in harmony.</p>
+                                    <p class="donation-details__text"></p>
                                 </div>
                             </div>
                             <div class="donation-details__donate">
@@ -90,10 +102,7 @@
                             </div>
                             <div class="donation-details__summary">
                                 <h3 class="donation-details__summary-title">Summary</h3>
-                                <p class="donation-details__summary-text-1"> 
-
-Global Pathfields is dedicated to empowering children through education by addressing financial constraints, lack of resources, and social barriers. Donations help provide school supplies, scholarships, improved educational infrastructure, teacher training, and nutritional support. Supporters can contribute through one-time donations, monthly sponsorships, corporate giving, or fundraising campaigns. Every contribution plays a vital role in shaping a better future for underprivileged children. <span>Donate now to make a lasting impact!<span></p>
-                                
+                                <p class="donation-details__summary-text-1"> Global Pathfields is committed to protecting the planet for future generations through reforestation, waste management, water conservation, renewable energy advocacy, and environmental education. The NGO has successfully planted 100,000+ trees, conducted waste reduction programs, provided clean water solutions to thousands, and educated 50,000+ individuals on sustainability. Moving forward, Global Pathfields aims to expand its initiatives, strengthen partnerships, and increase environmental awareness. Join us in our mission to create a sustainable world!</p>                                
                             </div>
                             
                            

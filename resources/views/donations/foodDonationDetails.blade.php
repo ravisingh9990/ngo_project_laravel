@@ -1,11 +1,11 @@
 @extends('layout.layout1')
 
 @php
-    $headTitle='Empowering Children';
+    $headTitle='Ending Hunger, One Meal at a Time';
     $img='assets/images/backgrounds/donation-detail1.jpg';
     $title='Home';
-    $title2 = 'Empowering Children Through Education';
-    $subTitle = 'Empowering Children Through Education';
+    $title2 = 'Ending Hunger, One Meal at a Time';
+    $subTitle = 'Ending Hunger, One Meal at a Time';
 @endphp
 
 @section('content')
@@ -20,42 +20,54 @@
                                 <div class="donation-details__img">
                                     <img src="{{ asset('assets/images/resources/donation-detail1.jpg') }}" alt="">
                                     <div class="donation-details__date">
-                                        <p>Education</p>
+                                        <p>Food</p>
                                     </div>
                                 </div>
                                 <div class="donation-details__content">
-                                    <h3 class="donation-details__title">Empower a Child Through Education</h3>
-                                    <p class="donation-details__text">At Global Pathfields, we believe that education is the key to breaking the cycle of poverty and empowering children to build a brighter future. Millions of children around the world lack access to quality education due to financial constraints, lack of resources, and social barriers. With your support, we can change this.
-
-                                        Why Your Donation Matters
-
-                                        Your contribution will help provide:
-
-                                        School Supplies – Books, stationery, uniforms, and other essential learning materials.
-
-                                        Scholarships – Financial assistance to underprivileged children to ensure uninterrupted education.
-
-                                        Infrastructure Development – Building and upgrading classrooms, libraries, and computer labs.
-
-                                        Teacher Training – Enhancing the quality of education through better-trained educators.
-
-                                        Nutritional Support – Providing meals to ensure children stay healthy and focused on learning.
-
-                                        How You Can Help
-
-                                        One-Time Donation: Any amount you contribute will make a difference in a child's life.
-
-                                        Monthly Sponsorship: Support a child’s education with a recurring monthly donation.
-
-                                        Corporate Giving: Businesses can partner with us to fund educational programs and infrastructure projects.
-
-                                        Fundraising Campaigns: Start your own campaign and inspire others to support children's education.
-
-                                        Together, We Can Make a Difference
-
-                                        Your generosity has the power to transform lives. By investing in a child's education today, you are shaping a better tomorrow.
-
-                                        Donate Now and be the change a child needs! </p>
+                                    <h3 class="donation-details__title">Ending Hunger, One Meal at a Time</h3>
+                                    <h4>Overview</h4>
+                                    <br>
+                                    <p class="donation-details__text">Hunger remains one of the most pressing global challenges, affecting millions of people every day. Despite advancements in agriculture and food production, many communities still struggle to access nutritious meals. At Global Pathfields, we are committed to eradicating hunger by providing sustainable food solutions to those in need. Through dedicated programs and community-driven initiatives, we aim to ensure that no one goes to bed hungry. </p>
+                                    <br>
+                                    <h4>Our Mission and Approach</h4>
+                                    <br>
+                                    <p class="donation-details__text">At Global Pathfields, our mission is to combat hunger through food distribution, sustainable agricultural programs, and nutrition education. We believe that food security is a fundamental human right, and our approach is centered around:</p>
+                                    <br>
+                                    <ul>
+                                        <li>Food Distribution Programs: Providing meals to underprivileged individuals and families.</li>
+                                        <li>Community Kitchens: Establishing meal centers where people can access fresh and nutritious food.</li>
+                                        <li>Sustainable Farming Initiatives: Supporting local farmers and promoting self-sufficiency through organic farming.</li>
+                                        <li>Nutrition Awareness Campaigns: Educating communities on the importance of balanced diets and healthy eating habits.</li>
+                                        <li>Partnerships and Collaborations: Working with local organizations, businesses, and volunteers to maximize our reach and impact.</li>
+                                    </ul>
+                                    <br>
+                                    <h4>Impact of Our Work</h4>
+                                    <br>
+                                    <p class="donation-details__text">Through our relentless efforts, Global Pathfields has significantly contributed to alleviating hunger:</p>
+                                    <br>
+                                    <ul>
+                                        <li>Served over 500,000 meals to individuals in need.</li>
+                                        <li>Established 50+ community kitchens, providing consistent access to food.</li>
+                                        <li>Supported hundreds of farmers in implementing sustainable farming techniques.</li>
+                                        <li>Conducted nutrition workshops reaching over 100,000 people to promote healthier eating habits.</li>
+                                        <li>Partnered with multiple organizations to expand food access and reduce wastage.</li>
+                                    </ul>
+                                    <br>
+                                    <h4>The Road Ahead</h4>
+                                    <br>
+                                    <p class="donation-details__text">While our efforts have made a considerable impact, our mission is far from over. We are dedicated to:</p>
+                                    <br>
+                                    <ul>
+                                        <li>Expanding our meal distribution programs to reach more vulnerable populations.</li>
+                                        <li>Strengthening sustainable farming initiatives to improve long-term food security.</li>
+                                        <li>Enhancing our nutrition education efforts to encourage better dietary habits.</li>
+                                        <li>Building stronger networks with businesses and individuals to create a larger support system.</li>
+                                    </ul>
+                                    <br>
+                                    <h4>Conclusion</h4>
+                                    <br>
+                                    <p class="donation-details__text">Ending hunger is a collective responsibility, and every effort counts. At Global Pathfields, we remain steadfast in our commitment to providing meals, supporting sustainable food practices, and educating communities. We invite individuals, organizations, and donors to join us in our mission. Together, we can create a world where everyone has access to nutritious food, one meal at a time.</p>
+                                    <br>
                                 </div>
                             </div>
                             <div class="donation-details__donate">
@@ -90,10 +102,7 @@
                             </div>
                             <div class="donation-details__summary">
                                 <h3 class="donation-details__summary-title">Summary</h3>
-                                <p class="donation-details__summary-text-1"> 
-
-Global Pathfields is dedicated to empowering children through education by addressing financial constraints, lack of resources, and social barriers. Donations help provide school supplies, scholarships, improved educational infrastructure, teacher training, and nutritional support. Supporters can contribute through one-time donations, monthly sponsorships, corporate giving, or fundraising campaigns. Every contribution plays a vital role in shaping a better future for underprivileged children. <span>Donate now to make a lasting impact!<span></p>
-                                
+                                <p class="donation-details__summary-text-1"> Global Pathfields is dedicated to eradicating hunger through meal distribution, community kitchens, sustainable farming, and nutrition education. The NGO has served over 500,000 meals, established 50+ community kitchens, supported local farmers, and educated 100,000+ individuals on healthy eating. Moving forward, Global Pathfields aims to expand its reach, strengthen sustainable food initiatives, and enhance nutritional awareness. Join us in the fight to end hunger, one meal at a time!</p> 
                             </div>
                             
                            

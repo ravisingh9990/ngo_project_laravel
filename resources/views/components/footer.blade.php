@@ -33,11 +33,11 @@
                     <div class="footer-widget__column footer-widget__non-profit clearfix">
                         <h3 class="footer-widget__title">Non profit</h3>
                         <ul class="footer-widget__non-profit-list list-unstyled clearfix">
-                            <li><a href="{{ route('donationDetails') }}">Differently Abled Kids</a></li>
-                            <li><a href="{{ route('donationDetails') }}">Help Child Cancer</a></li>
-                            <li><a href="{{ route('donationDetails') }}">Clean Pure Water</a></li>
-                            <li><a href="{{ route('donationDetails') }}">Give them Education</a></li>
-                            <li><a href="{{ route('donationDetails') }}">Start a Fundraising</a></li>
+                            <li><a href="{{ route('donation') }}">Differently Abled Kids</a></li>
+                            <li><a href="{{ route('donation') }}">Help Child Cancer</a></li>
+                            <li><a href="{{ route('donation') }}">Clean Pure Water</a></li>
+                            <li><a href="{{ route('donation') }}">Give them Education</a></li>
+                            <li><a href="{{ route('donation') }}">Start a Fundraising</a></li>
                         </ul>
                     </div>
                 </div>

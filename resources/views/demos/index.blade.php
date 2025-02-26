@@ -27,14 +27,14 @@
         "prevEl": "#main-slider__swiper-button-prev"
         },
         "autoplay": {
-        "delay": 50000
+        "delay": 20000
         }}'>
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
                     <div class="video-layer">
                         <video autoplay muted loop playsinline>
-                            <source src="{{ asset('assets/videos/video2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('assets/videos/video1.mp4') }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -57,7 +57,7 @@
                 <div class="swiper-slide">
                     <div class="video-layer">
                         <video autoplay muted loop playsinline>
-                            <source src="{{ asset('assets/videos/video1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('assets/videos/video2.mp4') }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -302,15 +302,14 @@
         <!--Focus Areas End-->
 
         
-         <!--Become Volunteer One Start-->
-         <x-becomeVolunteer/>
+      
+
+       
+       <!--Become Volunteer One Start-->
+       <x-becomeVolunteer/>
         <!--Become Volunteer One End-->
-
-
-        <!--Causes One Start-->
-        <!-- <section class="causes-one">
-            <div class="container"> -->
                 
+
                 <!--Donation Caraousel Start-->
         <section class="donation-carousel-page">
             <div class="container">
@@ -351,7 +350,7 @@
                                 </div>
                             </div>
                             <div class="causes-one__content">
-                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Empowering Children Through Education</a>
+                                <h3 class="causes-one__title"><a href="{{ route('educationDonationDetails') }}">Empowering Children Through Education</a>
                                 </h3>
                                 <p class="causes-one__text">Every child deserves access to quality education. Your support helps provide learning resources, and scholarships paving the way for a brighter future.</p>
                                 <div class="causes-one__progress">
@@ -382,7 +381,7 @@
                                 </div>
                             </div>
                             <div class="causes-one__content">
-                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Healthcare for a Healthier Tomorrow</a>
+                                <h3 class="causes-one__title"><a href="{{ route('healthDonationDetails') }}">Healthcare for a Healthier Tomorrow</a>
                                 </h3>
                                 <p class="causes-one__text">We provide medical aid, health awareness programs, and essential healthcare services to underprivileged communities, ensuring they lead healthier lives.</p>
                                 <div class="causes-one__progress">
@@ -413,7 +412,7 @@
                                 </div>
                             </div>
                             <div class="causes-one__content">
-                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Ending Hunger, One Meal at a Time</a>
+                                <h3 class="causes-one__title"><a href="{{ route('foodDonationDetails') }}">Ending Hunger, One Meal at a Time</a>
                                 </h3>
                                 <p class="causes-one__text">Millions go to bed hungry every night. We strive to provide nutritious meals to children and families in need, fighting hunger and malnutrition together.</p>
                                 <div class="causes-one__progress">
@@ -444,7 +443,7 @@
                                 </div>
                             </div>
                             <div class="causes-one__content">
-                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Protecting Our Planet for Future Generations</a>
+                                <h3 class="causes-one__title"><a href="{{ route('environmentDonationDetails') }}">Protecting Our Planet for Future Generations</a>
                                 </h3>
                                 <p class="causes-one__text">Through tree plantation drives, waste management initiatives, and awareness campaigns, we work towards a cleaner and greener environment.</p>
                                 <div class="causes-one__progress">
@@ -475,7 +474,7 @@
                                 </div>
                             </div>
                             <div class="causes-one__content">
-                                <h3 class="causes-one__title"><a href="{{ route('donationDetails') }}">Building a Sustainable Future</a>
+                                <h3 class="causes-one__title"><a href="{{ route('sustainabilityDonationDetails') }}">Building a Sustainable Future</a>
                                 </h3>
                                 <p class="causes-one__text">Our programs promote renewable energy, eco-friendly solutions, and sustainable practices to create lasting positive change for communities and the planet.</p>
                                 <div class="causes-one__progress">
@@ -562,7 +561,7 @@
                                                     <li><i class="fas fa-clock"></i>8:00pm</li>
                                                     <li><i class="fas fa-map-marker-alt"></i>Mumbai, Maharashtra</li>
                                                 </ul>
-                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Empowering Youth Through Skills Development</a></h3>
+                                                <h3 class="events-one__title"><a href="{{ route('empoweringYouth') }}">Empowering Youth Through Skills Development</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -581,7 +580,7 @@
                                                     <li><i class="fas fa-clock"></i>8:00pm</li>
                                                     <li><i class="fas fa-map-marker-alt"></i>Bangalore, Karnataka</li>
                                                 </ul>
-                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Sustainable Living & Environmental Awareness</a></h3>
+                                                <h3 class="events-one__title"><a href="{{ route('sustainableLiving') }}">Sustainable Living & Environmental Awareness</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -600,7 +599,7 @@
                                                     <li><i class="fas fa-clock"></i>8:00pm</li>
                                                     <li><i class="fas fa-map-marker-alt"></i>Delhi</li>
                                                 </ul>
-                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Child Rights & Education for a Better Future</a></h3>
+                                                <h3 class="events-one__title"><a href="{{ route('childRightsEducation') }}">Child Rights & Education for a Better Future</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -619,7 +618,7 @@
                                                     <li><i class="fas fa-clock"></i>8:00pm</li>
                                                     <li><i class="fas fa-map-marker-alt"></i>Kolkata, West Bengal</li>
                                                 </ul>
-                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Inclusive Employment for Economic Growth</a></h3>
+                                                <h3 class="events-one__title"><a href="{{ route('inclusiveEmployment') }}">Inclusive Employment for Economic Growth</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -638,7 +637,7 @@
                                                     <li><i class="fas fa-clock"></i>8:00pm</li>
                                                     <li><i class="fas fa-map-marker-alt"></i>Chennai, Tamil Nadu</li>
                                                 </ul>
-                                                <h3 class="events-one__title"><a href="{{ route('eventDetails') }}">Public Health & Nutrition Awareness</a></h3>
+                                                <h3 class="events-one__title"><a href="{{ route('publicHealthNutrition') }}">Public Health & Nutrition Awareness</a></h3>
                                             </div>
                                         </div>
                                     </div>

@@ -76,16 +76,7 @@
                                         <li class="dropdown">
                                             <a href="{{ route('about') }}">About</a>
                                         </li>
-                                        <!-- <li class="dropdown">
-                                            <a href="#">Focus Areas</a>
-                                            <ul>
-                                                <li><a href="{{ route('donation') }}">Donation</a></li>
-                                                <li><a href="{{ route('donationsList') }}">Donation list</a></li>
-                                                <li><a href="{{ route('donationCarousel') }}">Donation carousel</a></li>
-                                                <li><a href="{{ route('donationDetails') }}">Donation details</a></li>
-                                                <li><a href="{{ route('donateNow') }}">Donate Now</a></li>
-                                            </ul>
-                                        </li> -->
+                                        
                                         <li class="dropdown">
                                             <a href="{{ route('events') }}">Events</a>
                                             <!-- <ul>

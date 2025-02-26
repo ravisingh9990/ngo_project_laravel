@@ -8961,12 +8961,12 @@ body.locked .page-wrapper {
 }
 
 .event-details__text-1 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .event-details__text-2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--oxpins-base);
   padding-top: 32px;
@@ -8974,7 +8974,7 @@ body.locked .page-wrapper {
 }
 
 .event-details__text-3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -9002,12 +9002,12 @@ body.locked .page-wrapper {
 }
 
 .event-details__text-4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .event-details__text-5 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--oxpins-base);
   padding-top: 32px;
@@ -9015,7 +9015,7 @@ body.locked .page-wrapper {
 }
 
 .event-details__text-6 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 

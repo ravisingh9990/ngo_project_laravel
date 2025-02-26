@@ -39,7 +39,11 @@ Route::prefix('donations')->group(function () {
         Route::get('/donate-now', 'donateNow')->name('donateNow');
         Route::get('/donation', 'donation')->name('donation');
         Route::get('/donation-carousel', 'donationCarousel')->name('donationCarousel');
-        Route::get('/donation-details', 'donationDetails')->name('donationDetails');
+        Route::get('/education-donation-details', 'educationDonationDetails')->name('educationDonationDetails');
+        Route::get('/health-donation-details', 'healthDonationDetails')->name('healthDonationDetails');
+        Route::get('/food-donation-details', 'foodDonationDetails')->name('foodDonationDetails');
+        Route::get('/environment-donation-details', 'environmentDonationDetails')->name('environmentDonationDetails');
+        Route::get('/sustainability-donation-details', 'sustainabilityDonationDetails')->name('sustainabilityDonationDetails');
         Route::get('/donations-list', 'donationsList')->name('donationsList');
         
     });
@@ -51,6 +55,11 @@ Route::prefix('events')->group(function () {
         Route::get('/event-details', 'eventDetails')->name('eventDetails');
         Route::get('/events', 'events')->name('events');
         Route::get('/events-carousel', 'eventsCarousel')->name('eventsCarousel');
+        Route::get('/empowering-youth', 'empoweringYouth')->name('empoweringYouth');
+        Route::get('/public-health-nutrition', 'publicHealthNutrition')->name('publicHealthNutrition');
+        Route::get('/sustainable-living', 'sustainableLiving')->name('sustainableLiving');
+        Route::get('/child-rights-education', 'childRightsEducation')->name('childRightsEducation');
+        Route::get('/inclusive-employment', 'inclusiveEmployment')->name('inclusiveEmployment');
         
     });
 });

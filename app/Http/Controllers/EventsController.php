@@ -11,6 +11,27 @@ class EventsController extends Controller
         return view('events/eventDetails');
     }
     
+    public function empoweringYouth()
+    {
+        return view('events/empoweringYouth');
+    }
+    public function publicHealthNutrition()
+    {
+        return view('events/publicHealthNutrition');
+    }
+    public function sustainableLiving()
+    {
+        return view('events/sustainableLiving');
+    }
+    public function childRightsEducation()
+    {
+        return view('events/childRightsEducation');
+    }
+    public function inclusiveEmployment()
+    {
+        return view('events/inclusiveEmployment');
+    }
+    
     public function events()
     {
         return view('events/events');
