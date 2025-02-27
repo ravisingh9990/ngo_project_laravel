@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Empowering Youth Through Skills Development';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/about-header-bg.jpg';
     $title='Home';
     $title2 = 'Empowering Youth Through Skills Development';
     $subTitle = 'Empowering Youth Through Skills Development';

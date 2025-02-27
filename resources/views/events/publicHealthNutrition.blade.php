@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Public Health & Nutrition Awareness';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/about-header-bg.jpg';
     $title='Home';
     $title2 = 'Public Health & Nutrition Awareness';
     $subTitle = 'Public Health & Nutrition Awareness';

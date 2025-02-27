@@ -30,15 +30,11 @@
                                 <div class="donations-list__right">
                                     <div class="donations-list__content">
                                         <div class="donations-list__category">
-                                            <p>Education</p>
+                                            <p>Testimonials</p>
                                         </div>
-                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Let’s
-                                                education for children get good life</a></h3>
-                                        <p class="donations-list__text">There are many of lorem, but majori have
-                                            suffered alteration in some form. Et ligula ullamcorper malesuada proin
-                                            libero nunc. Quis vel eros donec ac odio tempor. Cursus in hac habitasse
-                                            platea.</p>
-                                        <div class="donations-list__progress">
+                                        <h3 class="donations-list__title"><a href="/assets/files/Partnerstestimonials.pdf" Download>Partner's Testimonials</a></h3>
+                                        <p class="donations-list__text">Discover what our valued partners have to say about their collaboration with us. These testimonials highlight the impact of our initiatives and the strong relationships we've built in our mission to create meaningful change.</p>
+                                        <!-- <div class="donations-list__progress">
                                             <div class="donations-list__progress-shape"
                                                 style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
                                             </div>
@@ -51,7 +47,7 @@
                                                 <p><span>$25,270</span> Raised</p>
                                                 <p><span>$30,000</span> Goal</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -71,16 +67,11 @@
                                 <div class="donations-list__right">
                                     <div class="donations-list__content">
                                         <div class="donations-list__category">
-                                            <p>Medical</p>
+                                            <p>Priliminary Program Report</p>
                                         </div>
-                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">A Little Help
-                                                can Heal their
-                                                Pains</a></h3>
-                                        <p class="donations-list__text">There are many of lorem, but majori have
-                                            suffered alteration in some form. Et ligula ullamcorper malesuada proin
-                                            libero nunc. Quis vel eros donec ac odio tempor. Cursus in hac habitasse
-                                            platea.</p>
-                                        <div class="donations-list__progress">
+                                        <h3 class="donations-list__title"><a href="/assets/files/Report.pdf" Download>Kidney Health Awareness Campaign, Priliminary Program Report</a></h3>
+                                        <p class="donations-list__text">This report outlines the key activities, goals, and initial findings of our Kidney Kid Health Awareness Campaign. Learn how we are working towards better kidney health education and awareness for children.</p>
+                                        <!-- <div class="donations-list__progress">
                                             <div class="donations-list__progress-shape"
                                                 style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
                                             </div>
@@ -93,7 +84,7 @@
                                                 <p><span>$25,270</span> Raised</p>
                                                 <p><span>$30,000</span> Goal</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -112,16 +103,11 @@
                                 <div class="donations-list__right">
                                     <div class="donations-list__content">
                                         <div class="donations-list__category">
-                                            <p>Food</p>
+                                            <p>Annual Report</p>
                                         </div>
-                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Raise Fund for
-                                                Clean &Healthy
-                                                Food</a></h3>
-                                        <p class="donations-list__text">There are many of lorem, but majori have
-                                            suffered alteration in some form. Et ligula ullamcorper malesuada proin
-                                            libero nunc. Quis vel eros donec ac odio tempor. Cursus in hac habitasse
-                                            platea.</p>
-                                        <div class="donations-list__progress">
+                                        <h3 class="donations-list__title"><a href="/assets/files/Annualreport.pdf" Download>Annual Report 2019-20</a></h3>
+                                        <p class="donations-list__text">Explore our achievements, financial highlights, and the milestones we reached over the past year. This annual report reflects our commitment to transparency and our dedication to creating a lasting impact.</p>
+                                        <!-- <div class="donations-list__progress">
                                             <div class="donations-list__progress-shape"
                                                 style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
                                             </div>
@@ -134,7 +120,7 @@
                                                 <p><span>$25,270</span> Raised</p>
                                                 <p><span>$30,000</span> Goal</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -153,16 +139,11 @@
                                 <div class="donations-list__right">
                                     <div class="donations-list__content">
                                         <div class="donations-list__category">
-                                            <p>Medical</p>
+                                            <p>Broucher</p>
                                         </div>
-                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Give African
-                                                Child a Good
-                                                Education</a></h3>
-                                        <p class="donations-list__text">There are many of lorem, but majori have
-                                            suffered alteration in some form. Et ligula ullamcorper malesuada proin
-                                            libero nunc. Quis vel eros donec ac odio tempor. Cursus in hac habitasse
-                                            platea.</p>
-                                        <div class="donations-list__progress">
+                                        <h3 class="donations-list__title"><a href="/assets/files/GPBroucher.pdf" Download>Broucher</a></h3>
+                                        <p class="donations-list__text">Get an overview of our mission, services, and initiatives with this informative brochure. It provides a concise yet comprehensive look into who we are and how we strive to make a difference.</p>
+                                        <!-- <div class="donations-list__progress">
                                             <div class="donations-list__progress-shape"
                                                 style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
                                             </div>
@@ -175,7 +156,7 @@
                                                 <p><span>$25,270</span> Raised</p>
                                                 <p><span>$30,000</span> Goal</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -196,13 +177,9 @@
                                         <div class="donations-list__category">
                                             <p>Food</p>
                                         </div>
-                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Let’s
-                                                education for children get good life</a></h3>
-                                        <p class="donations-list__text">There are many of lorem, but majori have
-                                            suffered alteration in some form. Et ligula ullamcorper malesuada proin
-                                            libero nunc. Quis vel eros donec ac odio tempor. Cursus in hac habitasse
-                                            platea.</p>
-                                        <div class="donations-list__progress">
+                                        <h3 class="donations-list__title"><a href="/assets/files/Partnerstestimonials.pdf" Download>Partner's Testimonials</a></h3>
+                                        <p class="donations-list__text">Discover what our valued partners have to say about their collaboration with us. These testimonials highlight the impact of our initiatives and the strong relationships we've built in our mission to create meaningful change.</p>
+                                        <!-- <div class="donations-list__progress">
                                             <div class="donations-list__progress-shape"
                                                 style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
                                             </div>
@@ -215,7 +192,7 @@
                                                 <p><span>$25,270</span> Raised</p>
                                                 <p><span>$30,000</span> Goal</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>

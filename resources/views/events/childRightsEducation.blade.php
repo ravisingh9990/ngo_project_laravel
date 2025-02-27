@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Child Rights & Education for a Better Future';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/about-header-bg.jpg';
     $title='Home';
     $title2 = 'Child Rights & Education for a Better Future';
     $subTitle = 'Child Rights & Education for a Better Future';

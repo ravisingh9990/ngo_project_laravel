@@ -354,24 +354,11 @@
                                                 <div class="donations-list__right">
                                                     <div class="donations-list__content">
                                                         <p class="donations-list__text">Evaluation of North East Region Textile Promotion Scheme (NERTPS)</p>
-                                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Ministry of Textile, Govt. of India and PwC, Sep 2019</a></h3>
+                                                        <h3 class="donations-list__title"><a href="#">Ministry of Textile, Govt. of India and PwC, Sep 2019</a></h3>
                                                         <div class="donations-list__category">
                                                             <p>In, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Sikkim and Tripura, Ministry of Textile, Govt. of India and PwC, Sep 2019</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -391,24 +378,11 @@
                                                 <div class="donations-list__right">
                                                     <div class="donations-list__content">
                                                         <p class="donations-list__text">Endline Evaluation of Homeless Population</p>
-                                                        <h3 class="donations-list__title"><a href="{{ route('donationDetails') }}">Humana People to People India, Sep 2019</a></h3>
+                                                        <h3 class="donations-list__title"><a href="#">Humana People to People India, Sep 2019</a></h3>
                                                         <div class="donations-list__category">
                                                             <p>In Delhi</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -431,20 +405,7 @@
                                                         <div class="donations-list__category">
                                                             <p>In Andhra Pradesh, Bihar, Jharkhand and Maharashtra</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -467,20 +428,7 @@
                                                         <div class="donations-list__category">
                                                             <p>In Delhi</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
@@ -503,20 +451,7 @@
                                                         <div class="donations-list__category">
                                                             <p>In Delhi</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                       
                                                     </div>
                                                 </div>
                                             </div>

@@ -267,20 +267,7 @@
                                                         <div class="donations-list__category">
                                                             <p>In, Uttar Pradesh, Karnataka, Tamil Nadu and Telangana</p>
                                                         </div>
-                                                        <!-- <div class="donations-list__progress">
-                                                            <div class="donations-list__progress-shape"
-                                                                style="background-image:url('{{ asset('assets/images/shapes/donations-list-progress-shape-1.png') }}')">
-                                                            </div>
-                                                            <div class="bar">
-                                                                <div class="bar-inner count-bar" data-percent="36%">
-                                                                    <div class="count-text">36%</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="causes-one__goals">
-                                                                <p><span>$25,270</span> Raised</p>
-                                                                <p><span>$30,000</span> Goal</p>
-                                                            </div>
-                                                        </div> -->
+                                                       
                                                     </div>
                                                 </div>
                                             </div>

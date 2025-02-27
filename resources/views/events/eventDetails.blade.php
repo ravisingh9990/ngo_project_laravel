@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Event Details';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/about-header-bg.jpg';
     $title='Home';
     $title2 = 'Event details';
     $subTitle = 'Event details';

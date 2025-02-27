@@ -2,7 +2,7 @@
 
 @php
     $headTitle='Inclusive Employment for Economic Growth';
-    $img='assets/images/backgrounds/page-header-bg.jpg';
+    $img='assets/images/backgrounds/about-header-bg.jpg';
     $title='Home';
     $title2 = 'Inclusive Employment for Economic Growth';
     $subTitle = 'Inclusive Employment for Economic Growth';
